@@ -1,0 +1,258 @@
+/*#main-header .nav-bar .nav-bar-container ul {
+    list-style: none;
+}
+
+#main-header .nav-bar .nav-bar-container ul li {
+    display: inline-block;
+}
+
+#main-header .nav-bar .nav-bar-container ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#main-header .nav-bar {
+    text-align: center;
+}*/
+
+/*main-content*/
+
+#main-content .text .text-container h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#main-content .text {
+    text-align: center;
+}
+
+#main-content .text .text-container a {
+    color: #212133;
+    text-decoration: none;
+}
+
+#main-content .text .text-container h1.about a:after {
+    content: 'Hello.';
+}
+
+#main-content .text .text-container h1.about a:hover:after {
+    content: 'About';
+}
+
+#main-content .text .text-container h1.work a:after {
+    content: 'I am';
+}
+
+#main-content .text .text-container h1.work a:hover:after {
+    content: 'Works';
+}
+
+#main-content .text .text-container h1.contact a:after {
+    content: 'Rey';
+}
+
+#main-content .text .text-container h1.contact a:hover:after {
+    content: 'Contact';
+}
+
+/*about*/
+
+#about .header .header-container .text .text-container h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#about .header .header-container .text {
+    text-align: center;
+}
+
+#about .image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    max-width: 370px;
+    margin-bottom: 100px;
+}
+
+#about .image .image-container {
+    border-radius: 100%;
+    border: 1px solid;
+    background-image: url(../img/rey_id.jpg);
+    width: 100%;
+    max-width: 100%;
+    height: 380px;
+}
+
+#about .paragraph-text .paragraph-text-container p {
+    text-align: justify;
+}
+
+#about .paragraph-text {
+    margin-top: 50px;
+}
+
+
+#about .paragraph-text .paragraph-text-container a {
+    text-decoration: none;
+    color: #212133;
+}
+
+#about .paragraph-text .paragraph-text-container a:hover {
+    text-decoration: underline;
+}
+
+/*contact*/
+
+#contact .header .header-container .text .text-container h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#contact .header .header-container .text {
+    text-align: center;
+}
+
+#contact .paragraph-text .paragraph-text-container p {
+    text-align: justify;
+}
+
+#contact .paragraph-text {
+    margin-top: 50px;
+}
+
+
+#contact .paragraph-text .paragraph-text-container a {
+    text-decoration: none;
+    color: #212133;
+}
+
+#contact .paragraph-text .paragraph-text-container a:hover {
+    text-decoration: underline;
+}
+
+/*work*/
+
+#work .header .header-container .text .text-container h1 {
+    font-size: 130px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#work .header .header-container .text {
+    text-align: center;
+}
+
+
+#work .paragraph-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#work .paragraph-text .paragraph-text-container a {
+    text-decoration: none;
+    color: #212133;
+}
+
+#work .paragraph-text .paragraph-text-container a:hover {
+    text-decoration: underline;
+}
+
+#work .paragraph-text .paragraph-text-container .work-entry .work-entry-container button.accordion {
+    font-size: 40px;
+    font-weight: 600;
+    background-color: inherit;
+    color: #333;
+    cursor: pointer;
+    padding: 40px 40px 20px 40px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    transition: 0.4s;
+    border: none;
+}
+
+#work .paragraph-text .paragraph-text-container .work-entry .work-entry-container button.accordion.active {
+    padding: 40px 40px 10px 40px;
+}
+
+#work .paragraph-text .paragraph-text-container .work-entry .work-entry-container .panel {
+    padding: 0px 40px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 1420px) {
+
+  
+}
+
+
+@media (max-width: 1199px) {
+
+  
+}
+
+@media (max-width: 991px) {
+
+  
+
+
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+  #about .header .header-container .text .text-container h1 {
+    font-size: 110px;
+  }
+
+  #contact .header .header-container .text .text-container h1 {
+    font-size: 110px;
+  }
+
+  #work .header .header-container .text .text-container h1 {
+    font-size: 110px;
+  }
+
+  #work .paragraph-text .paragraph-text-container .work-entry .work-entry-container button.accordion {
+    font-size: 25px;
+  }
+
+
+
+
+  
+}
+
+@media (max-width: 575px) {
+
+  #about .header .header-container .text .text-container h1 {
+    font-size: 70px;
+  }
+
+  #contact .header .header-container .text .text-container h1 {
+    font-size: 70px;
+  }
+
+  #work .header .header-container .text .text-container h1 {
+    font-size: 70px;
+  }
+
+}
+
+@media (max-width: 479px) {
+
+}

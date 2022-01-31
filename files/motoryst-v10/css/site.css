@@ -1,0 +1,5945 @@
+/*
+* User Dashboard
+*/
+
+#user-dashboard #main-footer .container.pt-5.pb-5 .content {
+    border-top: 0;
+}
+
+#headline-section {
+  background-color:#fbfbfb;
+  background-image: url(../img/motoryst-main-icon-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left bottom;
+}
+
+#headline-section .content {
+  color: #fff;
+}
+
+#headline-section .content p {
+  width: 75%;
+}
+
+.slider-content .entry .image-content {
+    position: relative;
+    height: 100%;
+}
+
+.slider-content.cars-2-col .entry,
+.slider-content.cars-3-col .entry {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slider-content.cars-2-col,
+.slider-content.cars-3-col {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.slider-content .entry .car-info-row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.slider-content .entry .car-info-row .car-info-col {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#headline-section .content-container {
+    background-image: url(../img/dashboard-intro-bg.png);
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+#headline-section .content-container h1,
+#headline-section .content-container h2,
+#headline-section .content-container h3,
+#headline-section .content-container h4,
+#headline-section .content-container h5,
+#headline-section .content-container h6,
+#headline-section .content-container .h1,
+#headline-section .content-container .h2,
+#headline-section .content-container .h3,
+#headline-section .content-container .h4,
+#headline-section .content-container .h5,
+#headline-section .content-container .h6 {
+  margin-bottom: 0;
+}
+
+.slider-section .slider-content .bottom-text {
+    background-color: #9e9d24;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.slider-section .slider-content.cars-2-col .bottom-text,
+.slider-section .slider-content.cars-3-col .bottom-text {
+    position: relative;
+}
+
+.slider-section .slider-content .image-content img {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-section .slider-content.cars-2-col .image-content img {
+    height: 230px;
+}
+
+.slider-section .slider-content.cars-3-col .image-content img {
+    height: 150px;
+}
+
+.slider-section .slider-content .bottom-text .car-details {
+    text-align: center;
+}
+
+.slider-section .slider-content .bottom-text .car-detail-entry {
+    text-align: center;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.slider-section .slider-content .bottom-text .car-detail-entry:first-child {
+    padding-left: 0;
+}
+
+.slider-section .slider-content .bottom-text .car-detail-entry:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.slider-section .slider-content .bottom-text {
+  background-color: #9e9d24;
+}
+
+.slider-section .slider-content.cars-2-col .bottom-text,
+.slider-section .slider-content.cars-3-col .bottom-text {
+    position: relative;
+}
+
+.slider-section .slider-content .bottom-text a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.slider-section .slider-content .bottom-text a:hover{
+  font-weight: 400;
+}
+
+.slider-content .entry .text-content {
+    position: relative;
+    height: 100%;
+    border: 1px solid #A5A411;
+    padding: 0px 30px 0 30px;
+}
+
+.slider-content .entry .car-specs-container table.car-specs-table {
+    width: 100%;
+}
+
+.slider-content .entry .car-specs-container table.car-specs-table tbody tr th, 
+.slider-content .entry .car-specs-container table.car-specs-table tbody tr td {
+    padding: 15px;
+}
+
+.slider-content .entry .car-specs-container table.car-specs-table tbody tr th {
+	font-weight: bold;
+}
+
+.slider-content .entry .car-specs-container table.car-specs-table tbody tr td {
+    color: #A5A411;
+}
+
+.slider-section .slider-content .bx-wrapper {
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.slider-section .slider-content .bx-wrapper, .bx-viewport, .bx-wrapper img{
+  border-radius: 0;
+}
+
+.slider-section .slider-content  .bx-wrapper .bx-controls-direction a.bx-prev {
+  left: -110px;
+}
+
+.slider-section .slider-content  .bx-wrapper .bx-controls-direction a.bx-next {
+  right: -110px;
+}
+
+.search-section input#search-bar {
+    width: 100%;
+    border: 2px solid #9e9d24;
+    font-size: 18px;
+    padding: 19px 30px;
+    padding-left: 75px;
+    line-height: 1.6;
+}
+
+.search-section form i.fas.fa-search {
+  position: absolute;
+  font-size: 23px;
+  top: 24px;
+  padding-left: 30px;
+}
+
+.search-section form {
+  padding-bottom: 2px;
+}
+
+.search-section .chevron {
+    text-align: center;
+}
+
+.search-section .chevron .icon {
+    background-color: #A5A411;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+
+.search-section .chevron .icon a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+
+#services-section {
+    background-color: #f3f3f3;
+}
+
+#services-section .services-row .col {
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    margin-bottom: 30px;
+}
+
+#services-section .content a .services .image {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 50px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+#services-section .content a:hover .services .image {
+  background-position: 0 -50px;
+}
+
+#services-section .content a .services.repairs.wrench .image {
+  background-image: url(../img/services-repair-wrench.png);
+}
+
+#services-section .content a .services.insurance .image {
+    background-image: url(../img/services-insurance.png);
+}
+
+#services-section .content a .services.repairs.car .image {
+  background-image: url(../img/services-repair-car.png);
+}
+
+#services-section .content a:hover .services.repairs.car .image{
+  background-position: 0 -150px;
+}
+
+#services-section .content a .services.tyre .image {
+  background-image: url(../img/services-tyre.png);
+}
+
+#services-section .content a .services.breakdown .image {
+  background-image: url(../img/services-breakdown.png);
+}
+
+#services-section .content a .services.gap .image {
+  background-image: url(../img/services-gap.png);
+}
+
+#services-section .content a .services.warranty .image {
+  background-image: url(../img/services-warranty.png);
+}
+
+#services-section .content a .services.eshop .image {
+  background-image: url(../img/services-shop.png);
+}
+
+#services-section .content a .services.document .image {
+  background-image: url(../img/services-contract.png);
+}
+
+#services-section .content a .services.mypoint .image {
+  background-image: url(../img/services-my-points.png);
+}
+
+#services-section .content a .services {
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgb(82 82 33 / 20%);
+    background-color: #fff;
+    position: relative;
+    height: 100%;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+}
+
+#services-section .content a {
+    display: block;
+    position: relative;
+    height: 100%;
+}
+
+#services-section .content a .services .text {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#services-section .content a:hover .services {
+  color: #fff;
+}
+
+#services-section .content a:hover .services {
+  background-color: #9e9d24;
+  background-image: url(../img/dashboard-intro-bg.png);
+  background-size: 400px;
+  background-repeat: repeat;
+}
+
+.search-section {
+    position: relative;
+}
+
+.search-section .chevron {
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+}
+
+.job-request-section .content .table-content table.job-requests tbody td, 
+.job-request-section .content .table-content table.job-requests thead th {
+  border: 1px solid #e2e2e2;
+  padding: 10px 15px;
+  color: #333;
+}
+
+.job-request-section .content .table-content {
+    margin-bottom: 20px;
+}
+
+.job-request-section .content .table-content table.job-requests{
+	width: 100%;
+  font-size: 14px;
+}
+
+.job-request-section .content .table-title h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.job-request-section .table-content table.job-requests tr.table-header i.fas.fa-sort {
+    color: #9e9d24;
+}
+
+.job-request-section .table-content table.job-requests tbody tr td a{
+	text-decoration: underline;
+}
+
+.slider-section {
+    max-height: 500px;
+}
+
+.job-request-section .content .table-content table.job-requests thead th {
+    background-color: #e2e2e2;
+    text-align: left;
+}
+
+.job-request-section .content .table-content table.job-requests tbody tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+#user-dashboard .job-requests {
+    padding: 0;
+}
+
+/*
+* Login
+*/
+
+#login-section .content {
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-section .content .remember-me {
+    margin-bottom: 20px;
+}
+
+#login-section .content .btn {
+    width: 100%;
+}
+
+#login-section .content .forgot-password {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-section .content .forgot-password .forgot-password-link {
+    display: inline-block;
+    border-bottom: 1px dotted;
+    padding-bottom: 2px;
+}
+
+
+
+/* 
+mechanic-registration --- css
+
+*/
+
+#mechanic-registration {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#mechanic-registration .content-container .content .col.middle {
+    text-align: center;
+}
+
+#mechanic-registration .content-container .content .col .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #e2e2e2;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mechanic-registration .content-container .content .col.active .top-text-container {
+    background-color: #a5a411;
+    color: #fff;
+}
+
+#mechanic-registration .content-container .content p.bottom-text {
+    padding-top: 20px;
+    font-size: 14px;
+   	font-weight: 500;
+    color: #9c9c9c;;
+}
+
+#mechanic-registration .content-container .content p.top-text {
+font-size: 18px;
+}
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+.mechanic-signup .content .header-text-container,
+#service-preference .content .header-text-container,
+.user-signup .content .header-text-container,
+.quotation-info .content .header-text-container {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.mechanic-signup .content .header-text-container h1,
+#service-preference .content .header-text-container h1,
+.quotation-info .content .header-text-container h1,
+.user-signup .content .header-text-container h1 {
+	font-size: 36px;
+	color: #a5a411;
+}
+
+.mechanic-signup .content .header-text-container h3,
+#service-preference .content .header-text-container h3,
+.quotation-info .content .header-text-container h3,
+.user-signup .content .header-text-container h3 {
+  font-size: 24px;
+  color: #a5a411;
+}
+
+.mechanic-signup .content .header-text-container p,
+#service-preference .content .header-text-container p,
+.quotation-info .content .header-text-container p,
+.user-signup .content .header-text-container p {
+    margin-bottom: 1rem;
+}
+
+#business-details-form .content .company-details-container {
+    padding-top: 30px;
+}
+
+
+#business-details-form .content .company-details-container label {
+    padding-bottom: 10px;
+}
+
+#business-details-form .content .company-details-container .form-group .form-control::placeholder {
+    color: #e2e2e2;
+}
+
+#business-details-form .content .row-container {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#business-details-form .content .row-container.email {
+    border-bottom: 0;
+}
+
+#business-details-form .content .row-container.business-info-container {
+    padding-bottom: 0;
+}
+
+#business-details-form .content .row-container > div > div {
+    padding-bottom: 30px;
+}
+
+#business-details-form .content .row-container.address-info {
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
+
+#business-details-form .content .row-container .company-details-container .form-group .form-control{
+	background-color: #f5f5f5;
+}
+
+/*radio button vat*/
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container {
+  display: inline;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #a5a411;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container 
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container 
+.radio-content .radio-container span.checkmark:after {
+ 	top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+#business-details-form .content .row-container .vat-content-container .radio-content {
+    padding-top: 15px;
+}
+
+#business-details-form .content .row-container .vat-content-container label.radio-container.yes {
+    margin-left: 30px;
+}
+
+input#input-vat-number {
+    background-color: #f5f5f5;
+}
+
+#business-details-form .content .row-container .vat-content-container .form-group 
+.form-control::placeholder {
+    color: #e2e2e2;
+}
+
+#business-details-form .content .row-container .vat-content-container .form-group {
+    width: 350px;
+}
+
+#business-details-form .content .row-container.contact-detail {
+    padding: 0 30px;
+}
+
+#business-details-form .content .row-container .contact-details-container 
+.form-group .form-control::placeholder {
+	color: #e2e2e2;
+}
+
+input.form-control{
+	background-color: #f5f5f5;
+}
+
+#business-details-form .content .row-container.contact-detail {
+    background-color: #eceeee;
+}
+
+#business-details-form .content .row-container.contact-detail {
+    border-bottom: 0;
+}
+
+
+#business-details-form .content .row-container.email .radio-button-content
+.radio-content .radio-container {
+  display: inline;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#business-details-form .content .row-container.email .radio-button-content
+ .radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#business-details-form .content .row-container.email .radio-button-content 
+.radio-content .radio-container span.checkmark:after {
+ 	top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#business-details-form .content .row-container.email .radio-button-content label.radio-container.sms {
+    margin-left: 30px;
+}
+
+#business-details-form .content .row-container.vat {
+    border-bottom: 0px;
+    padding-top: 30px;
+}
+
+#business-details-form .content .row-container.email .text-content p {
+    padding-top: 20px;
+    color: red;
+    font-weight: 500;
+}
+
+#business-details-form .content .row-container.button .button-container button.save-progress {
+    font-weight: 400;
+    background-color: #24292e;
+    text-transform: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+#business-details-form .content .row-container.button .button-container.next {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#business-details-form .content .row-container.button .button-container.next button.next {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+}
+
+#business-details-form .content .row-container.button .button-container.next button.next i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+#business-details-form .content .row-container.button {
+    border-bottom: 0px;
+
+}
+
+#main-footer .container.pt-5.pb-5 .content {
+    border-top: 1px solid #e2e2e2;
+}
+
+/*
+mechanic-signup-1-----css
+*/
+
+#mechanic-registration .content-container .content .col {
+    text-align: center;
+}
+
+#mechanic-registration .content-container .with-content {
+    position: relative;
+}
+
+#mechanic-registration .content-container .with-content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 30px);
+    background-color: #e2e2e2;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#mechanic-registration .content-container .content .col:last-child .with-content:after {
+  display: none;
+}
+
+#mechanic-registration .content-container .content p.bottom-text {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9c9c9c;
+}
+
+#mechanic-registration .content-container .content p.top-text {
+font-size: 18px;
+}
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#mechanic-registration .content-container .content .col.first .col-md-8.with-content {
+    text-align: right;
+}
+
+#mechanic-registration .content-container .content .col.last .col-md-8.with-content {
+    text-align: left;
+}
+
+#mechanic-registration .content-container  .content .col.middle .col-md-4.with-content p.bottom-text {
+    width: 46px;
+}
+
+#business-details-form .content .row-container .company-details-container select#input-business-status {
+    height: 50px;
+}
+
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#business-details-form .content .row-container.vat .vat-content-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#business-details-form .content .row-container.vat .vat-content-container .form-check{
+  padding-top: 45px;
+}
+
+#business-details-form .content .row-container .vat-content-container .form-group {
+    width: 270px;
+}
+
+.row-container.name-email-post-code-info .post-code-container .form-group {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#business-details-form .content .row-container.name-email-post-code-info .look-address-button-container button.lookup-address {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+}
+
+.row-container.name-email-post-code-info .post-code-container .look-address-button-container {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#business-details-form .content .row-container.name-email-post-code-info {
+    border-bottom: 0;
+}
+
+#business-details-form .content .row-container.name-email-post-code-info > div > div {
+    padding-bottom: 30px;
+}
+
+#business-details-form .content .row-container.name-email-post-code-info > div > div:last-child {
+    padding-bottom: 0;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check {
+    display: inline-block;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container {
+    padding-top: 15px;
+}
+
+#business-details-form .form-check{
+  padding-left: 0;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check.sms {
+    margin-left: 10%;
+}
+
+
+/*
+mechanic-signup-2-css
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#business-details-form .content .row-container.email .text-content .send-notification-container .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#service-preference .content-container .service-list .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#service-preference .content-container .service-list .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#service-preference .content-container .service-list .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#service-preference .content-container .service-list .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#service-preference .content-container .service-list .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#service-preference .content-container .service-list .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#service-preference .content-container .service-list .form-check label.form-check-label {
+    padding-left: 15px;
+}
+
+#service-preference .content-container .service-list .form-check.under {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#service-preference .content-container {
+    border: 1px solid #e2e2e2;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+#service-preference .content-container .service-list {
+    margin-bottom: 20px;
+}
+
+#service-preference .content-container .service-list:last-child {
+    margin-bottom: 0;
+}
+
+#service-preference .content-container .service-list p {
+    margin-bottom: 20px;
+}
+
+
+#service-preference .header {
+    padding: 20px 0 30px 0;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container {
+  display: inline;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container input,
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container span.checkmark,
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container:hover input ~ .checkmark,
+.radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container input:checked ~ .checkmark,
+.radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #a5a411;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container input:checked ~ span.checkmark:after,
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#service-preference .question-section .question-content-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#service-preference .question-section .question-content-container p{
+    display: inline-block;
+}
+
+#service-preference .question-section .question-content-container .radio-content,
+.radio-content {
+  display: inline-block;
+}
+
+#service-preference .question-section .question-content-container .radio-content label.radio-container.no,
+.radio-content label.radio-container.no {
+  margin-left: 20px;
+}
+
+#service-preference .question-section .question-content-container .radio-content.first-question {
+  margin-left: 20px;
+}
+
+#service-preference .question-section .question-content-container .radio-content.second-question {
+  margin-left: 85px;
+}
+
+#service-preference .button-container button.next {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+    float: right;
+}
+
+#service-preference .button-container button.next i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+#service-preference .button-container{
+  margin-top: 0px;
+}
+
+/*
+* Mechanic Signup 3
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#map-content .map-container {
+    margin-top: 50px;
+}
+
+#map-content .content .post-code-container .form-group.post-code {
+    display: inline-block;
+    width: 550px;
+    max-width: 100%;
+}
+
+#map-content .content .post-code-container label {
+    display: inline-block;
+}
+
+#map-content .container .content .text-container p.miles {
+    font-size: 16px;
+}
+
+#map-content .container .content .slidecontainer {
+  width: 100%;
+  padding-left: 140px;
+}
+
+#map-content .container .content .slidecontainer input[type="range"] {
+    width: 300px;
+}
+
+#map-content .container .content .button-container button.add-location {
+    font-weight: 400;
+    background-color: #24292e;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+}
+
+#map-content .container .content .button-container {
+    text-align: center;
+}
+
+#map-content .content .add-location-form .table-form.pt-3 table.table.table-striped tbody {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#map-content .container .content .checkbox-container .form-check.under {
+    padding-left: 25px;
+}
+
+#map-content .container .content .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#map-content .container .content .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#map-content .container .content .form-check span.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#map-content .container .content .form-check .form-check-label:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+#map-content .container .content .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#map-content .container .content .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#map-content .container .content .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#map-content .container .content .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#map-content .container .content .form-check {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+#map-content .container .content .button-container button.next {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+    float: right;
+}
+
+#map-content .container .content .button-container button.next i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+#map-content .container .content .button-container button.resend {
+    font-weight: 400;
+    background-color: #24292e;
+    text-transform: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+/*
+* Mechanic Signup 4
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-4 .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-4 .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#business-insurance-qualifications .content-container .form-group-container {
+    margin-bottom: 30px;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-group input#input-policy-number {
+    margin-top: 8px;
+}
+
+#business-insurance-qualifications .content-container .under-text {
+    margin-bottom: 30px;
+}
+
+#business-insurance-qualifications .content-container .under-text p {
+    padding: 5px 0 10px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check span.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check .form-check-label:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#business-insurance-qualifications .content-container .form-group-container .form-check {
+    padding-top: 10px;
+}
+
+#business-insurance-qualifications .content-container .form-group input::placeholder {
+    color: #e2e2e2;
+}
+
+#business-insurance-qualifications .form-group-container .form-group textarea#comment{
+  resize: none;
+  overflow-y:scroll;
+  background-color: #f5f5f5;
+}
+
+#business-insurance-qualifications .form-group-container .form-group textarea#comment::placeholder{
+  color: #e2e2e2;
+}
+
+#business-insurance-qualifications .button-container button.next {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+    float: right;
+}
+
+#business-insurance-qualifications .button-container button.next i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+#business-insurance-qualifications .button-container button.save-progress {
+    font-weight: 400;
+    background-color: #24292e;
+    text-transform: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+#business-insurance-qualifications .upload-container.pt-5{
+   margin-top: 30px;
+   height: 500px;
+   border: 1px solid #ccc;
+}
+
+#business-insurance-qualifications .upload-container.pt-5 form {
+   padding: 200px 20px;
+   background-color: #f5f5f5;
+}
+
+#business-insurance-qualifications .content-container .row >  {
+    margin-bottom: 30px;
+}
+
+#business-insurance-qualifications .upload-container {
+    margin-bottom: 30px;
+}
+
+/*
+* Mechanic Signup 5
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-5 .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-5 .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#car-info .car-info-content {
+    text-align: center;
+}
+
+#car-info .car-info-content .text-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#car-info .car-info-content .text-container h3 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+#email-validation .container .content .button-container button.resend {
+    font-weight: 400;
+    background-color: #24292e;
+    text-transform: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+#email-validation .container .content .text-container p {
+    font-size: 12px;
+}
+
+/*
+* Mechanic Signup 6
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-6 .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-6 .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#email-validation .container .content .text-container p.password {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#email-validation .container .content .form-group.verification {
+    padding-top: 20px;
+}
+
+#email-validation .container .content .button-container button.next {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+    float: right;
+}
+
+#email-validation .container .content .button-container button.next i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+/*
+* Mechanic Signup 7
+*/
+
+#mechanic-registration .container {
+    border: 1px #e2e2e2 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-7 .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#mechanic-registration .container .content-container.mechanic-signup-7 .content .line {
+    padding: 0;
+}
+
+#mechanic-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#email-validation .container .content .text-container p.terms {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#email-validation .container .content .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#email-validation .container .content .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#email-validation .container .content .form-check span.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#email-validation .container .content .form-check .form-check-label:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+#email-validation .container .content .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#email-validation .container .content .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#email-validation .container .content .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#email-validation .container .content .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#email-validation .container .content .form-check {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+#email-validation .container .content a {
+  text-decoration:  underline;
+}
+
+/*
+* Quotation Page 1
+*/
+
+#headline-section-quotation-page-1 .content-container .content .col .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #d8d8d8;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline-section-quotation-page-1 .content-container .content .col.active .top-text-container {
+    color: #fff;
+    background-color: #a5a411;
+}
+
+#headline-section-quotation-page-1 .content-container .content p.bottom-text {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9c9c9c;;
+    text-align: center;
+}
+
+#headline-section-quotation-page-1 .content-container .content p.top-text {
+font-size: 18px;
+}
+
+#headline-section-quotation-page-1 .content-container .content .col .with-content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 60px);
+    background-color: #e2e2e2;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#headline-section-quotation-page-1 .content-container .content .col:last-child .with-content:after {
+    display: none;
+}
+
+#headline-section-quotation-page-1 .container {
+    border: 1px #d8d8d8 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#headline-section-quotation-page-1 .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+#headline-section-quotation-page-1 .container .content-container .content .line {
+    padding: 0;
+}
+
+#headline-section-quotation-page-1 .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#form-section-calendar-home-address .content span.edit-address {
+    margin-left: 370px;
+    text-decoration: underline;
+    color: #d8d8d8;
+}
+
+#form-section-quotation-page-1 .content span.edit-address i.fas.fa-pen {
+    padding-right: 15px;
+    color: #a5a411;
+}
+
+#form-section-quotation-page-1 .content .address-input {
+    padding-top: 20px;
+}
+
+#form-section-quotation-page-1 .content .address-input span.address {
+    font-weight: 700;
+}
+
+#form-section-quotation-page-1 .content .col-md-4 .header-container{
+  text-align: center;
+  background-color: #24292e;
+    padding: 25px 0 10px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#form-section-quotation-page-1 .content .col-md-4 {
+    border: 10px solid #d3d3d3;
+    padding: 0;
+}
+
+#form-section-quotation-page-1 .content .work-content .icon-container i.fas.fa-chevron-right{
+    padding-top: 12px;
+    color: #A5A411;
+}
+
+#form-section-quotation-page-1 .content  .row.pt-4.pb-4.even {
+    background-color: #ededed;
+}
+
+#form-section-quotation-page-1 .content  p.quote-vat {
+    text-align: center;
+    padding: 20px 0;
+    color: #a5a411;
+}
+
+#form-section-quotation-page-1 .content .work-content {
+    padding: 0 15px 0 15px;
+    background-color: #f5f5f5;
+}
+
+#form-section-quotation-page-1 .content .form-group{
+  width: 100%;
+}
+
+#form-section-quotation-page-1 .content .form-group input#inputAddress{
+  border-color: #d8d8d8;
+  background-color: #f5f5f5;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 500;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#form-section-quotation-page-1 .content .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#form-section-quotation-page-1 .content .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#form-section-quotation-page-1 .content .form-check{
+  padding: 14px 0 3px;
+  background: #e1e1e1;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#form-section-quotation-page-1 .content .form-group input#input-repair::placeholder {
+    font-weight: 800;
+    color: #333;
+}
+
+#form-section-quotation-page-1 .content .form-group  input#input-repair {
+    padding: 16px 0px 16px 40px;
+    border: 1px solid #a5a411;
+}
+
+#form-section-quotation-page-1 .content .search-container .form-group:after {
+    content: '\f002';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 17px;
+    left: 30px;
+}
+
+#form-section-quotation-page-1 .content .calendar {
+    padding-top: 40px;
+}
+
+#form-section-quotation-page-1 .content .col-md-4 .header-container.qoute {
+    border-radius: 0px;
+}
+
+
+#headline-section-quotation-page-1 .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+#headline-section-quotation-page-1 .container .content-container .content .line {
+    padding: 0;
+}
+
+#form-section-quotation-page-1 .content .search-container {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#form-section-quotation-page-1 .content .navigation-container .col.active .bar-container .line-content {
+    background-color: #a5a411;
+}
+
+#form-section-quotation-page-1 .content .navigation-container .bar-container .line-content{
+    height: 2px;
+    width: 100%;
+    background-color: #d8d8d8;
+    margin-top: 10px
+}
+
+#form-section-quotation-page-1 .content .navigation-container .bar-container .text-content {
+    text-align: center;
+}
+
+#form-section-quotation-page-1 .content .navigation-container .bar-container .text-content a {
+    padding: 0 15px;
+    white-space: nowrap;
+    display: block;
+    color: #333;
+}
+
+#form-section-quotation-page-1 .content .navigation-container .col.active a,
+#form-section-quotation-page-1 .content .navigation-container .col a:hover {
+    color: #a5a411;
+}
+
+#form-section-quotation-page-1 .content .navigation-container .col {
+  padding: 0;
+}
+
+#form-section-quotation-page-1 .content .button-container,
+#form-section-calendar-home-address .content .button-container {
+    text-align: right;
+    padding-top: 40px;
+}
+
+#form-section-quotation-page-1 .content .button-container button,
+#form-section-calendar-home-address .content .button-container button {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+}
+
+#form-section-quotation-page-1 .content .button-container button i.fas.fa-chevron-right,
+#form-section-calendar-home-address .content .button-container button i.fas.fa-chevron-right {
+    padding-left: 15px;
+}
+
+
+/*
+* User Registration
+*/
+
+#headline-section-user-registration {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.first {
+    text-align: right;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.second {
+    text-align: center;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.third {
+    text-align: left;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.first .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #a5a411;
+    color: #fff;
+    text-align: center;
+    margin-left: 89%;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.second .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #d8d8d8;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline-section-user-registration .content-container .content .col-md-4.third .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #d8d8d8;
+    text-align: center;
+    margin-right: 100%;
+}
+
+#headline-section-user-registration .content-container .content p.bottom-text {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9c9c9c;;
+}
+
+#headline-section-user-registration .content-container .content p.top-text {
+font-size: 18px;
+}
+
+#headline-section-user-registration .container {
+    border: 1px #d8d8d8 solid;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url(../img/dashboard-intro-bg.png);
+    border-radius: 10px;
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+#headline-section-user-registration .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+#headline-section-user-registration .container .content-container .content .line {
+    padding: 0;
+}
+
+#headline-section-user-registration .content .col-md-4.first p.bottom-text {
+    color: #a5a411;
+}
+
+#headline-section-user-registration .content .car-details {
+    text-align: center;
+    color: #fff;
+}
+
+#headline-section-user-registration .content .car-details .top-text h6 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#business-details-form .row-container.user-registration{
+  border-bottom: 0;
+}
+
+/*
+* Calendar - Quotation Page 2
+*/
+
+#headline-section-calendar-home-address .content-container .content .col .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #d8d8d8;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline-section-calendar-home-address .content-container .content .col .with-content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 60px);
+    background-color: #e2e2e2;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#headline-section-calendar-home-address .content-container .content .col:last-child .with-content:after {
+  display: none;
+}
+
+#headline-section-calendar-home-address .content-container .content .col.active .top-text-container {
+    width: 40px;
+    padding: 6px;
+    border-radius: 100%;
+    background-color: #a5a411;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline-section-calendar-home-address .content-container .content p.bottom-text {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+#headline-section-calendar-home-address .content-container .content p.top-text {
+font-size: 18px;
+}
+
+#headline-section-calendar-home-address .container {
+    border: 1px #d8d8d8 solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#header-section {
+    border-top: 5px solid #a5a411;
+}
+
+#form-section-calendar-home-address .content span.edit-address {
+    margin-left: 370px;
+    text-decoration: underline;
+    color: #d8d8d8;
+}
+
+#form-section-calendar-home-address .content span.edit-address i.fas.fa-pen {
+    padding-right: 15px;
+    color: #a5a411;
+}
+
+#form-section-calendar-home-address .content .address-input {
+    padding-top: 20px;
+}
+
+#form-section-calendar-home-address .content .address-input span.address {
+    font-weight: 700;
+}
+
+#form-section-calendar-home-address .content .col-md-4 .header-container{
+  text-align: center;
+  background-color: #24292e;
+    padding: 25px 0 10px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#form-section-calendar-home-address .content .col-md-4 {
+    border: 10px solid #d3d3d3;
+    padding: 0;
+}
+
+#form-section-calendar-home-address .content .work-content .icon-container i.fas.fa-chevron-right{
+    padding-top: 12px;
+    color: #A5A411;
+}
+
+#form-section-calendar-home-address .content  .row.pt-4.pb-4.even {
+    background-color: #ededed;
+}
+
+#form-section-calendar-home-address .content  p.quote-vat {
+    text-align: center;
+    padding: 20px 0;
+    color: #a5a411;
+}
+
+#form-section-calendar-home-address .content .work-content {
+    padding: 0 15px 0 15px;
+    background-color: #f5f5f5;
+}
+
+#form-section-calendar-home-address .content .form-group{
+  width: 570px;
+  max-width: 100%;
+  padding-top: 15px;
+}
+
+#form-section-calendar-home-address .content .form-group.input-address:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    position: absolute;
+    top: 26px;
+    left: 15px;
+}
+
+#form-section-calendar-home-address .content .form-group.input-address {
+    position: relative;
+}
+
+#form-section-calendar-home-address .content .form-group input#inputAddress{
+  border-color: #d8d8d8;
+  background-color: #f5f5f5;
+  padding-left: 37px;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#form-section-calendar-home-address .content .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#form-section-calendar-home-address .content .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#form-section-calendar-home-address .content .form-check{
+  padding-left: 0;
+}
+
+#form-section-calendar-home-address .content .form-group input#inputAddress::placeholder {
+    color: #d8d8d8;
+}
+
+#form-section-calendar-home-address .content .calendar {
+    padding-top: 40px;
+}
+
+#form-section-calendar-home-address .content .col-md-4 .header-container.qoute {
+    border-radius: 0px;
+}
+
+
+#headline-section-calendar-home-address .container .content-container .content .line-maker {
+    height: 40px;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+#headline-section-calendar-home-address .container .content-container .content .line {
+    padding: 0;
+}
+
+.calendar-build .calendar-head {
+    background-color: #a5a411;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.calendar-build .calendar-head * {
+    color: #fff;
+}
+
+.calendar-build .calendar-head .btn-container {
+    padding: 5px;
+}
+
+.calendar-build .calendar-head .calendar-date-list {
+    max-width: calc(100% - 40px);
+    flex: 0 0 calc(100% - 40px);
+    -ms-flex: 0 0 calc(100% - 40px);
+    padding: 0 10px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.calendar-build .calendar-table-container table.calendar-table {
+    width: 100%;
+}
+
+.calendar-build .calendar-table-container table.calendar-table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 6px 10px;
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td.inactive a.time-link {
+    color: #aaa;
+    background-color: #f2f2f2;
+    pointer-events: none;
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td a.time-link {
+    padding: 10px 6px;
+    display: block;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    color: #666;
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td a.time-link:hover {
+    color: #a5a411;  
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td a.time-link.selected {
+    background-color: #a5a411;  
+    color: #fff;
+}
+
+.calendar-build .calendar-table-container table.calendar-table tbody tr td a.time-link .day-info {
+    display: none;
+}
+
+/*
+* Quote 3 - Payment
+*/
+
+.payment-content .radio-content {
+    display: block;
+}
+
+.payment-content .radio-content .radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+}
+
+.payment-content .other-address {
+    padding-left: 35px;
+    display: none;
+}
+
+.payment-content .radio-content .radio-container .home-address {
+    font-weight: bold;
+}
+
+.payment-content .other-address.show {
+    display: block;
+}
+
+.payment-content .other-address.hide {
+    display: none;
+}
+
+
+/*
+* Mechanic Dashboard
+*/
+
+#dashboard-job-request .content .menu-background {
+    background-color: #fff;
+    position: relative;
+}
+
+#dashboard-job-request .content .menu-background .profile-menu-toggler {
+    position: absolute;
+    right: -40px;
+    top: 15px;
+    display: none;
+}
+
+#dashboard-job-request .content .menu-background .profile-menu-toggler .toggle-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#dashboard-job-request .content .worker-profile {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#dashboard-job-request .content .worker-profile .image{
+	width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+}
+
+#dashboard-job-request .content .worker-profile .text {
+    text-align: center;
+}
+
+#dashboard-job-request .content .side-menu {
+    padding-top: 30px;
+}
+
+#dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+#dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li a{
+	color: #333;
+}
+
+#dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li a:hover{
+	color: #a5a411;
+}
+
+#dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+    padding-left: 60px;
+}
+
+#dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li i.fas {
+    padding-right: 30px;
+}
+
+.job-requests {
+    padding: 60px;
+}
+
+.job-requests #accordion .card .card-header button {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    background-color:#fff;
+    width: 100%;
+    text-align: left;
+}
+
+.job-requests #accordion .card #headingTwo i.fas.fa-circle{
+	color: #fce205;
+}
+
+.job-requests #accordion .card #headingThree i.fas.fa-circle{
+	color: green;
+}
+
+.job-requests #accordion .card .card-header i.fas.fa-circle {
+    padding-right: 10px;
+}
+
+.job-requests #accordion .card .card-header h5.mb-0 i.fas.fa-chevron-circle-down {
+    float: right;
+    padding-top: 6px;
+    color: #a5a411;
+}
+
+.job-requests #accordion .card .card-header h5.mb-0 button.btn.btn-link.collapsed {
+    text-align: left;
+}
+
+.job-requests #accordion .card .card-header {
+	background-color: #fff;
+}
+
+.job-requests #accordion .card{
+	margin-bottom: 20px;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td {
+    padding: 0 10px 20px;
+    vertical-align: middle;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table thead tr.table-header th {
+    padding: 0 10px;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check span.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check {
+    padding-top: 10px;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown {
+    display: inline-block;
+}
+
+.job-requests #accordion .card .card-body .action-bar {
+	text-align: right;
+	padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.job-requests #accordion .card .card-body .action-bar span {
+    color: #a5a411;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown button.btn.btn-primary.dropdown-toggle{
+	border-color: #ccc;
+	width: 160px;
+	background-color: transparent;
+	color: #333;
+	border-radius: 5px;
+	font-weight: 400;
+	text-align: left;
+  font-size: 14px;
+}
+
+.job-requests #accordion .card .card-body .action-bar button {
+	margin-left: 20px;
+	padding:10px;
+	border-radius: 5px;
+	width: 130px;
+	font-weight: 400;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown button.btn.btn-primary.dropdown-toggle span.caret {
+    padding-left: 40px;
+    display: inline;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown ul.dropdown-menu li {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown ul.dropdown-menu li:last-child{
+	padding-bottom:0;
+}
+
+.job-requests #accordion .card .card-body .action-bar .dropdown ul.dropdown-menu li a{
+	color: #333;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody tr td.small-space.detail a {
+    text-decoration: underline;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.job-requests .anayltics .col-md-2 .costumer {
+	background-color: #fff;
+    height: 200px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+.job-requests .anayltics .col-md-2 .value {
+	background-color: #fff;
+    height: 200px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#dashboard-job-request .container-fluid {
+    background-color: #f3f3f3;
+}
+
+.job-requests .anayltics .revenue-content {
+    height: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.job-requests .anayltics .col-md-2  p.header-title {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.job-requests .anayltics .col-md-2  h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.job-requests .anayltics .col-md-2 .value p.percent{
+	color: red;
+}
+
+.job-requests .anayltics .col-md-2 .costumer p.percent{
+	color: green;
+}
+
+.job-requests .anayltics .col-md-2 .costumer p.percent i.fas.fa-long-arrow-alt-up {
+    padding-right: 10px;
+}
+
+.job-requests .anayltics .col-md-2 .value p.percent i.fas.fa-long-arrow-alt-down {
+    padding-right: 10px;
+}
+
+#dashboard-job-request .content .menu-background.show {
+    left: 0;
+}
+
+#dashboard-job-request .content .menu-background.hide {
+    left: -250px;
+}
+
+
+
+/*
+Dashboard-system
+*/
+
+#system-dashboard .content .link {
+    height: 250px;
+    width: 100%;
+    border: 1px #d2d4d3 solid;
+    color: #495154;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+#system-dashboard .content .link:hover {
+	border: 2px solid #a5a411;
+}
+
+#system-dashboard .content .link .icon i.fas {
+    font-size: 50px;
+    margin-top: 22px;
+}
+
+#system-dashboard .content .link .icon {
+	text-align: center;
+	border: 1px #d2d4d3 solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#system-dashboard .content .link .text {
+    text-align: center;
+    padding-top: 20px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#system-dashboard .heading-text {
+    text-align: center;
+}
+
+#system-dashboard {
+    background-color: #f8f8f8;
+}
+
+#system-dashboard .heading-text h1 {
+    font-weight: 600;
+}
+
+/*
+garage-verification
+*/
+
+#garage-verification .show-number {
+    display: inline-block;
+    float: right;
+}
+
+#garage-verification .heading-text {
+    display: inline-block;
+}
+
+#garage-verification .show-number .form-group select#pick-number {
+    padding: 5px 15px;
+}
+
+#garage-verification .heading-text h1 {
+    font-weight: 600;
+}
+
+#garage-verification .table-content table {
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+#garage-verification .table-content table thead tr.table-header {
+    height: 70px;
+}
+
+#garage-verification .table-content table thead {
+    border-bottom: 2px solid #ececec;
+}
+
+#garage-verification {
+    background-color: #f8f8f8;
+}
+
+#garage-verification .table-content table tbody tr td a {
+    text-decoration: underline;
+}
+
+#garage-verification .table-content table thead tr.table-header th {
+    padding: 0px 10px;
+}
+
+#garage-verification .table-content table tbody tr td {
+    padding: 20px 10px 20px;
+}
+
+#garage-verification .table-content table tbody tr td button {
+    padding: 10px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#garage-verification .table-content table tbody tr td button.delete {
+    background-color: #d4d4d4;
+}
+
+#garage-verification .table-content table tbody tr td button.delete:hover {
+    background-color: #a1a1a1;
+}
+
+#garage-verification .table-content table tbody tr td.name {
+    font-weight: 600;
+}
+
+#garage-verification .page-number {
+    float: right;
+}
+
+#garage-verification .page-number button{
+	border-radius: 100%;
+	width: 30px;
+    height: 30px;
+}
+
+#garage-verification .page-number button i.fas.fa-chevron-left {
+    padding-right: 3px;
+}
+
+#garage-verification .page-number button i.fas.fa-chevron-right {
+    padding-left: 3px;
+}
+
+#garage-verification .page-number span {
+    padding: 0 15px;
+}
+
+#garage-verification .page-number button.left{
+	background-color: #d4d4d4;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table {
+    width: 100%;
+    font-size: 14px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header button.close {
+    color: #ff7269;
+    text-transform: capitalize;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header button.close:hover {
+    background-color: transparent;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header{
+	display: block;
+	border-bottom: none;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td button {
+    background-color: transparent;
+    color: #d9dadc;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td.filename i.far {
+    padding-right: 10px;
+    color: #a3a60f;
+    font-size: 20px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td a {
+    text-decoration: underline;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td {
+	padding: 10px 10px 10px 0px;
+}
+
+#garage-verification .modal-dialog.modal-lg  .modal-content {
+    padding: 30px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .text-area .form-group textarea#text-area-approved {
+    border: 2px solid #9c9d51;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-footer {
+    border-top: none;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel {
+    background-color: #d4d4d4;
+    color: #656a6d;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel:hover {
+    background-color: #a1a1a1;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content  .modal-footer button{
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .appoved-header {
+    background-color: #f8f9fb;
+    padding: 15px;
+    border: 1px solid #dddee3;
+    border-radius: 3px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header button.close span.text {
+    font-size: 17px;
+    color: #333;
+    padding-right: 5px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header .header-text ,
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    display: inline-block;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    padding-left: 27px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link a {
+    color: #638dd5;
+    text-decoration: underline;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body {
+    padding: 0;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group label span.required {
+    color: #ff7269;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group select#select-type {
+    height: 50px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group label {
+    font-weight: 600;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .button-container button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #ff7269;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group input.form-control {
+    background-color: transparent;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .button-container {
+    padding-top: 20px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: -20px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table thead th.number {
+    text-align: right;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table thead th {
+    padding-right: 10px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .table-container .header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table {
+    margin-top: 20px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .button-container button.delete {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .table-container {
+    border: 30px solid #ff7269;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+#garage-verification .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group input#quantity {
+    height: 50px;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+
+
+
+/*my-documents*/
+#my-documents .content .icon-container .icon i.far,
+#my-documents .content .icon-container .icon i.fas {
+    font-size: 50px;
+    padding-top: 45px;
+    color: #495154;
+}
+
+#my-documents .content .icon-container .icon {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    height: 160px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+#my-documents .content .icon-container .icon.add {
+    border: 1px dashed #e1e1e1;
+    background-color: #f2f2f2;
+}
+
+#my-documents .content .icon-container {
+    padding: 15px;
+}
+
+#my-documents .content .icon-container .icon p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+#my-documents {
+    background-color: #f8f8f8f8;
+}
+
+#my-documents .content .title-text h3 {
+    font-weight: 600;
+    color: #444;
+}
+
+#my-documents .content{
+  background-color: #fff;
+  padding:  40px;
+}
+
+#my-documents .content .title-text.folders {
+    padding-top: 30px;
+}
+
+#my-documents .content .icon-container .icon:hover {
+  border: 1px solid #a5a411;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-header button.close {
+    color: #a5a411;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-header button.close:hover {
+    background-color: transparent;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel {
+    background-color: #d4d4d4;
+    color: #656a6d;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel:hover {
+    background-color: #a1a1a1;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content  .modal-footer button{
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-header{
+  display: block;
+  border-bottom: none;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-body table tbody td button {
+    background-color: transparent;
+    color: #d9dadc;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-body table tbody td.filename i.far {
+    padding-right: 10px;
+    color: #a3a60f;
+    font-size: 20px;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-footer {
+    border-top: none;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-body .upload .upload-icon {
+    text-align: center;
+    border: 1px dashed #e1e1e1;
+    height: 200px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 50px;
+    padding-top: 45px;
+    color: #495154;
+}
+
+#my-documents .content .modal-dialog.modal-lg .modal-content .modal-body .upload .upload-icon p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+/*payments*/
+
+#payments .content .menu-background {
+    background-color: #fff;
+    position: relative;
+}
+
+#payments .content .menu-background .profile-menu-toggler {
+    position: absolute;
+    right: -40px;
+    top: 15px;
+    display: none;
+}
+
+#payments .content .menu-background .profile-menu-toggler .toggle-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#payments .content .worker-profile {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#payments .content .worker-profile .image{
+  width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+}
+
+#payments .content .worker-profile .text {
+    text-align: center;
+}
+
+#payments .content .side-menu {
+    padding-top: 30px;
+}
+
+#payments .content .side-menu .menu ul.menudo li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+#payments .content .side-menu .menu ul.menudo li a{
+  color: #333;
+}
+
+#payments .content .side-menu .menu ul.menudo li a:hover{
+  color: #a5a411;
+}
+
+#payments .content .side-menu .menu ul.menudo {
+    padding-left: 60px;
+}
+
+#payments .content .side-menu .menu ul.menudo li i.fas {
+    padding-right: 30px;
+}
+
+#payments .content .side-menu .menu ul.menudo li i.far {
+    padding-right: 30px;
+    color: #9dac71;
+}
+
+#payments .content .side-menu .menu ul.menudo:first child{
+  background-color: #fbfbfb;
+}
+
+.accordions-drops {
+    padding: 60px;
+}
+
+#payments .content .accordions-drops #accordion .card .card-header button {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    background-color:#fff;
+    width: 100%;
+    text-align: left;
+}
+
+#payments .content .accordions-drops #accordion .card .card-header i.fas.fa-circle {
+    padding-right: 10px;
+    color: #495154;
+}
+
+#payments .content .accordions-drops #accordion .card .card-header h5.mb-0 i.fas.fa-chevron-circle-up {
+    float: right;
+    padding-top: 6px;
+    color: #a5a411;
+}
+
+#payments .content .accordions-drops #accordion .card .card-header h5.mb-0 button.btn.btn-link.collapsed {
+    text-align: left;
+}
+
+#payments .content .accordions-drops #accordion .card .card-header {
+  background-color: #fff;
+}
+
+#payments .content .accordions-drops #accordion .card{
+  margin-bottom: 20px;
+}
+
+#payments .content .accordions-drops #accordion .card .card-body table.payments-table {
+    width: 100%;
+    font-size: 14px;
+}
+
+#payments .content .accordions-drops #accordion .card .card-body .scroll-container{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+}
+
+#payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td {
+    padding: 20px 10px 20px;
+    vertical-align: middle;
+}
+
+#payments .content .accordions-drops #accordion .card .card-body table.payments-table thead tr.table-header th {
+    padding: 0 10px;
+}
+
+#payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody tr td a {
+    text-decoration: underline;
+}
+
+
+#payments .container-fluid {
+    background-color: #f3f3f3;
+}
+
+
+#payments .content .menu-background.show {
+    left: 0;
+}
+
+#payments .content .menu-background.hide {
+    left: -250px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header button.close {
+    color: #a5a411;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header button.close:hover {
+    background-color: transparent;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel {
+    background-color: #d4d4d4;
+    color: #656a6d;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel:hover {
+    background-color: #a1a1a1;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content  .modal-footer button{
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header{
+  display: block;
+  border-bottom: 2px solid #dbdcde;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body table tbody td button {
+    background-color: transparent;
+    color: #d9dadc;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body table tbody td.filename i.far {
+    padding-right: 10px;
+    color: #a3a60f;
+    font-size: 20px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-footer {
+    border-top: none;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .upload .upload-icon p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header .logo-container {
+    display: inline;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header h3#exampleModalLongTitle {
+    display: inline;
+    padding-left: 60px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content {
+    padding: 40px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-header .close {
+    margin: -3rem -3rem -1rem auto;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-4 p:nth-child(3) {
+    padding-top: 24px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-4 p:nth-child(4) {
+    padding-top: 24px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-8 {
+    font-weight: 700;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .details {
+    font-weight: 700;
+}
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .left {
+    text-align: right;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #dbdcde;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container.invoice{
+  padding-top: 35px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container.invoice .col-md-3 {
+    font-weight: 700;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-footer button.cost {
+    background-color: #495154;
+    padding: 20px 40px;
+}
+
+#payments .content .modal-dialog.modal-lg .modal-content .modal-footer .cost {
+    background-color: #495154;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:nth-child(3){
+    padding-left: 50px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(3){
+    padding-left: 38px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(4){
+    padding-left: 38px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(5){
+    padding-left: 25px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(6){
+    padding-left: 29px;
+  }
+
+
+/*resolution-center*/
+
+#resolution-center .show-number {
+    display: inline-block;
+    float: right;
+}
+
+#resolution-center .heading-text {
+    display: inline-block;
+}
+
+#resolution-center .show-number .form-group select#pick-number {
+    padding: 5px 15px;
+}
+
+#resolution-center .heading-text h1 {
+    font-weight: 600;
+}
+
+#resolution-center .table-content table {
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+#resolution-center .table-content table thead tr.table-header {
+    height: 70px;
+}
+
+#resolution-center .table-content table thead {
+    border-bottom: 2px solid #ececec;
+}
+
+#resolution-center {
+    background-color: #f8f8f8;
+}
+
+#resolution-center .table-content table tbody tr td a {
+    text-decoration: underline;
+}
+
+#resolution-center .table-content table thead tr.table-header th {
+    padding: 0px 10px;
+}
+
+#resolution-center .table-content table tbody tr td {
+    padding: 20px 10px 20px;
+}
+
+#resolution-center .table-content table tbody tr td button {
+    padding: 10px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 166px;
+}
+
+
+#resolution-center .page-number {
+    float: right;
+    display: inline-block;
+}
+
+#resolution-center .page-number button{
+  border-radius: 100%;
+  width: 30px;
+    height: 30px;
+}
+
+#resolution-center .page-number button i.fas.fa-chevron-left {
+    padding-right: 3px;
+}
+
+#resolution-center .page-number button i.fas.fa-chevron-right {
+    padding-left: 3px;
+}
+
+#resolution-center .page-number span {
+    padding: 0 15px;
+}
+
+#resolution-center .page-number button.left{
+  background-color: #d4d4d4;
+}
+
+
+#resolution-center .search-section input#search-bar {
+    border: 1px solid #9e9d24;
+    font-size: 16px;
+    padding-left: 75px;
+    line-height: 17px;
+    border-radius: 40px;
+}
+
+#resolution-center .search-section form i.fas.fa-search {
+  position: absolute;
+  font-size: 23px;
+  top: 17px;
+  padding-left: 30px;
+}
+
+#resolution-center .search-section form {
+  padding-bottom: 2px;
+}
+
+#resolution-center .table-content table tbody tr td.escalated {
+    color: red;
+}
+
+
+#resolution-center .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#resolution-center .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#resolution-center .form-check span.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#resolution-center .form-check .form-check-label:hover input ~ span.checkmark {
+  background-color: #ccc;
+}
+
+#resolution-center .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#resolution-center .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#resolution-center .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#resolution-center .form-check span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#resolution-center .form-check {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+#resolution-center .form-check {
+    display: inline-block;
+}
+
+/*resolution-page*/
+
+#resolution-page .container.content .info .reason .form-group select#select-reason {
+    height: 45px;
+}
+
+#resolution-page .container.content .info .reason .form-group {
+    padding: 8px 0px 0px 0px;
+}
+
+#resolution-page .container.content .info {
+  padding: 10px 0px 10px 0px;
+}
+
+#resolution-page .container.content .info span.left {
+    padding-left: 20px;
+}
+
+#resolution-page .container.content .info .form-group-container .form-group textarea#complaint {
+    height: 200px;
+}
+
+#resolution-page .container.content .button button {
+    padding: 10px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 120px;
+}
+
+#resolution-page .container.content .button{
+   display: inline;
+}
+
+#resolution-page .container.content .button button.closebutton {
+    background-color: #d4d4d4;
+    color: #656a6d;
+}
+
+#resolution-page .container.content .button button.closebutton:hover {
+    background-color: #a1a1a1;
+}
+
+#resolution-page .container.content .button button.submitbutton {
+    float: right;
+}
+
+#resolution-page .container.content .button.left {
+    padding-left: 300px;
+}
+
+#resolution-page .container.content .info .form-group-container {
+    padding-bottom: 50px;
+}
+
+
+
+/*resolution-view-page*/
+
+
+#resolution-center-view-page .heading-text {
+    text-align: center;
+}
+
+#resolution-center-view-page .details span.description button {
+    padding: 4px 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+  #resolution-center-view-page .details {
+    text-align: center;
+}
+
+#resolution-center-view-page .details span.description {
+    padding-left: 21px;
+}
+
+#resolution-center-view-page .message-boxes .message{
+    padding: 30px;
+    border: 1px solid #a9a9a9;
+}
+
+#resolution-center-view-page .message-boxes p.message-footer {
+    float: right;
+    padding-top: 10px;
+}
+
+#resolution-center-view-page .user i.fas.fa-user {
+    font-size: 90px;
+    padding-top: 100px;
+}
+
+#resolution-center-view-page .user{
+    text-align: center;
+}
+
+#resolution-center-view-page .buttons button {
+    padding: 4px 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#resolution-center-view-page .buttons button.nudge{
+  float: right;
+  background-color: #cc0a00;
+}
+
+#resolution-center-view-page .buttons button.nudge:hover{
+  float: right;
+  background-color: #ab0800;
+}
+
+#resolution-center-view-page .resolution-details .detail {
+    padding: 10px 0px 10px 0px;
+}
+
+#resolution-center-view-page .resolution-details {
+    margin-top: 20px;
+    border: 1px solid #a9a9a9;
+    padding: 20px;
+    height: 514px;
+}
+
+#resolution-center-view-page .modal-dialog.modal-lg .modal-content .modal-header button.close {
+    color: #a5a411;
+}
+
+/*calendar-only-page*/
+
+
+
+.calendar-desktop-only .calendar-table-container table.calendar-table {
+    width: 100%;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 6px 10px;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td.inactive a.time-link {
+    color: #aaa;
+    background-color: #f2f2f2;
+    pointer-events: none;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td a.time-link {
+    padding: 10px 6px;
+    display: block;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    color: #666;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td a.time-link:hover {
+    color: #a5a411;  
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td a.time-link.selected {
+    background-color: #a5a411;  
+    color: #fff;
+}
+
+.calendar-desktop-only .calendar-table-container table.calendar-table tbody tr td a.time-link .day-info {
+    display: none;
+}
+
+.calendar-desktop-only .calendar-head {
+    background-color: #a5a411;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.calendar-desktop-only .calendar-head * {
+    color: #fff;
+}
+
+.calendar-desktop-only .calendar-head .btn-container {
+    padding: 5px;
+}
+
+.calendar-desktop-only .calendar-head .calendar-date-list {
+    max-width: calc(100% - 40px);
+    flex: 0 0 calc(100% - 40px);
+    -ms-flex: 0 0 calc(100% - 40px);
+    padding: 0 10px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.calendar-mobile-only .calendar-head {
+    background-color: #a5a411;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.calendar-mobile-only .calendar-head * {
+    color: #fff;
+}
+
+.calendar-mobile-only .calendar-head .btn-container {
+    padding: 5px;
+}
+
+.calendar-mobile-only .calendar-head .calendar-date-list {
+    max-width: calc(100% - 40px);
+    flex: 0 0 calc(100% - 40px);
+    -ms-flex: 0 0 calc(100% - 40px);
+    padding: 0 10px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.calendar-mobile-only  .calendar-body .time {
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calendar-mobile-only .time.inactive {
+    color: #aaa;
+    background-color: #f2f2f2;
+    pointer-events: none;
+}
+
+.calendar-mobile-only  .time p {
+    padding: 10px 6px;
+    display: block;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    color: #666;
+}
+
+.calendar-mobile-only .time:hover {
+    color: #a5a411;  
+}
+
+.calendar-mobile-only .time p.selected  {
+    background-color: #a5a411;  
+    color: #fff;
+}
+
+.calendar-mobile-only {
+  display: none;
+}
+
+/*search-result-tyre*/
+
+#search-result-tyre-page .content .col-md-4 .header-container {
+    text-align: center;
+    background-color: #24292e;
+    padding: 25px 0 10px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#search-result-tyre-page .content .work-content {
+    padding: 0 15px 0 15px;
+    background-color: #f5f5f5;
+    height: 71.5%;
+}
+
+
+#search-result-tyre-page .content .row.pt-4.pb-4.even {
+    background-color: #ededed;
+}
+
+#search-result-tyre-page .content .col-md-4 .header-container {
+    text-align: center;
+    background-color: #24292e;
+    padding: 25px 0 10px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#search-result-tyre-page .content p.quote-vat {
+    text-align: center;
+    padding: 20px 0;
+    color: #a5a411;
+}
+
+#search-result-tyre-page .content .button-container, #form-section-calendar-home-address .content .button-container {
+    text-align: right;
+    padding-top:34px;
+}
+
+#search-result-tyre-page .content .button-container .btn, #form-section-calendar-home-address .content .button-container .btn {
+    padding: 13px 16px;
+    line-height: 1.1;
+    width: 100%;
+}
+
+#search-result-tyre-page .content .button-container button, #form-section-calendar-home-address .content .button-container button {
+    font-weight: 400;
+    background-color: #a5a411;
+    text-transform: none;
+    padding: 13px 42px;
+    border-radius: 5px;
+}
+
+#search-result-tyre-page .container.content .payment-content .vehicle-details .left {
+    display: inline-block;
+}
+
+#search-result-tyre-page .container.content .payment-content .vehicle-details .right{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+/*#search-result-tyre-page .question-section .question-content-container .radio-content .radio-container span.checkmark, .radio-content .radio-container span.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+}
+
+#search-result-tyre-page .question-section .question-content-container .radio-content .radio-container input:checked ~ .checkmark, .radio-content .radio-container input:checked ~ .checkmark {
+    background-color: #a5a411;
+}
+
+#search-result-tyre-page .question-section .question-content-container .radio-content .radio-container input, .radio-content .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}*/
+
+#search-result-tyre-page .container.content .payment-content .radio-button-container{
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+
+#search-result-tyre-page .content .col-md-4 {
+    border: 0;
+}
+
+#search-result-tyre-page .content .container-right {
+    border: 10px solid #d3d3d3;
+    padding: 0;
+}
+
+#search-result-tyre-page .container.content .payment-content .enter-details .details .form-group select,
+#search-result-tyre-page .container.content .result .details .form-group select  {
+    height: 45px;
+}
+
+#search-result-tyre-page .container.content .container-right .work-content .work-details{
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+#search-result-tyre-page .container.content .container-right .work-content .work-details:last-child{
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+#search-result-tyre-page .container.content .container-right .work-content .work-details button.delete{
+  border-radius: 3px;
+}
+
+#search-result-tyre-page .container.content .container-right .work-content .work-details span{
+  color: red;
+}
+
+#search-result-tyre-page .container.content .container-right .header-container.qoute strike{
+  color: red;
+}
+
+#search-result-tyre-page .container.content .result .details .radio-content .radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+}
+
+#search-result-tyre-page .container.content .result .details .radio-content .radio-container .radio-container span.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+}
+
+#search-result-tyre-page .question-section .question-content-container .radio-content .radio-container input:checked ~ .#search-result-tyre-page .container.content .result .details .radio-content .radio-container input:checked ~ .checkmark {
+    background-color: #a5a411;
+}
+
+#search-result-tyre-page .container.content .result .details .radio-content .radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 400;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+    left: -15px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #a5a411;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#search-result-tyre-page .container.content .result .details .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#search-result-tyre-page .container.content .details .label {
+    padding-bottom: 10px;
+}
+
+#search-result-tyre-page .container.content .result .button-container.search {
+    padding-top: 32px;
+}
+
+
+#search-result-tyre-page .container.content .result .entry-container .image-rating{
+  height: 20px;
+  margin-top: 30px;
+    color: #a5a411;
+}
+
+#search-result-tyre-page .container.content .result .entry-container p.label {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .image-rating .star-count {
+    color: #333;
+    font-weight: bold;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .action .button-container{
+  padding-top: 0px;
+  text-align: left;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .action .form-group select#number{
+  height: 49px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry {
+  padding-bottom: 30px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry:last-child{
+  border-bottom: 0;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry .image img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry .entry-content {
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    height: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry.recommended-entry .entry-content:after {
+    content: 'Recommended';
+    position: absolute;
+    background-color: #a5a411;
+    color: #fff;
+    top: -1px;
+    left: -1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 12px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .action .button-container .btn {
+    width: 100%;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry.recommended-entry .entry-content {
+    border-color: #a5a411;
+    background-color: hsl(60deg 81% 36% / 10%);
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry .entry-content > .row {
+    position: relative;
+    height: 100%;
+    padding-bottom: 95px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .entry .entry-content > .row .buy-row {
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#search-result-tyre-page .container.content .payment-content .enter-details {
+    background-color: #f2f2f2;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .tyre-details .image img{
+    width: auto;
+    height: 25px;
+    mix-blend-mode: multiply;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .tyre-details .image {
+    display: inline-block;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .tyre-details span {
+    font-weight: 700;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .car-kind .kind-entry {
+    display: inline-block; 
+}
+
+#search-result-tyre-page .container.content .result .entry-container .car-kind .kind-entry img {
+    width: auto;
+    height: 15px;
+    mix-blend-mode: multiply;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .car-kind .kind-entry span {
+    padding-left: 10px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .car-kind .kind-entry {
+    padding: 10px 0 0 15px;
+}
+
+#search-result-tyre-page .container.content .result .entry-container .price strong {
+    font-size: 28px;
+    color: #a5a411;
+}
+
+
+
+/*
+* Media Query
+*/
+
+@media (max-width: 1420px) {
+  .slider-section .slider-content .bx-wrapper .bx-controls-direction a.bx-prev {
+      left: 25px;
+      top: auto;
+      bottom: 125px;
+  }
+
+  .slider-section .slider-content .bx-wrapper .bx-controls-direction a.bx-next {
+      right: 25px;
+      top: auto;
+      bottom: 125px;
+  }
+
+  .slider-section .slider-content.cars-1-col .bx-wrapper .bx-controls-direction a.bx-prev {
+      left: 10px;
+  }
+
+  .slider-section .slider-content.cars-1-col .bx-wrapper .bx-controls-direction a.bx-next {
+      right: 10px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+    padding-left: 40px;
+  }
+
+  #dashboard-job-request .content .worker-profile {
+    padding-left: 10px;
+  }
+
+  .job-requests .anayltics .col-md-2 .costumer {
+    padding: 16px;
+  }
+
+  .job-requests .anayltics .col-md-2 .value {
+    padding: 16px;
+  }
+
+  .job-requests .anayltics .col-md-2 p.header-title {
+    padding-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody {
+     padding-right: 0; 
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check {
+      padding-left: 0;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label {
+    padding-left: 40px;
+  }
+
+  #payments .content .side-menu .menu ul.menudo {
+    padding-left: 40px;
+  }
+
+  #payments .content .worker-profile {
+    padding-left: 10px;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:nth-child(3){
+    padding-left: 0px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(3){
+    padding-left: 0px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(4){
+    padding-left: 0px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(5){
+    padding-left: 0px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(6){
+    padding-left: 0px;
+  }
+
+  #resolution-center-view-page .resolution-details {
+    height: 587px;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  #services-section .services-row .col {
+      max-width: 25%;
+      flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+  }
+
+  .slider-content.cars-2-col {
+      width: 585px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .slider-section .slider-content.cars-2-col .bx-wrapper .bx-controls-direction a.bx-prev {
+      left: -50px;
+  }
+
+  .slider-section .slider-content.cars-2-col .bx-wrapper .bx-controls-direction a.bx-next {
+      right: -50px;
+  }
+
+  .slider-content.cars-3-col {
+      width: 800px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #business-details-form .row-container.name-email-post-code-info .look-address-button-container {
+    padding-top: 32px;
+  }
+
+  #business-details-form .content .row-container.vat .vat-content-container .radio-content {
+    width: 162px;
+  }
+
+  #business-details-form .content .row-container.vat .vat-content-container.number {
+    padding-left: 30px;
+  }
+
+  #form-section-quotation-page-1 .content .work-content .col-md-11 {
+    max-width: 89.666667%;
+    flex: 0 0 89.666667%;
+    -ms-flex: 0 0 89.666667%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.popular {
+    max-width: 13%;
+    flex: 0 0 13%;
+    -ms-flex: 0 0 13%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.mot {
+    max-width: 10%;
+    flex: 0 0 10%;
+    -ms-flex: 0 0 10%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.tyres {
+    max-width: 10%;
+    flex: 0 0 10%;
+    -ms-flex: 0 0 10%;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+    padding-left: 40px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+    padding-left: 12px;
+  }
+
+  #dashboard-job-request .content .menu-background .worker-profile .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58%;
+    flex: 0 0 58%;
+    max-width: 58%;
+    padding:0;
+  }
+
+  #dashboard-job-request .content .menu-background .worker-profile .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 36.666667%;
+    flex: 0 0 36.666667%;
+    max-width: 36.666667%;
+  }
+
+  #dashboard-job-request .content .worker-profile {
+    padding-left: 0;
+  }
+
+  .job-requests .anayltics .col-md-2 .costumer {
+    padding: 20px 0 0px 0;
+    text-align: center;
+  }
+
+  .job-requests .anayltics .col-md-2 .value {
+    padding: 20px 0 0px 0;
+    text-align: center;
+  }
+
+  #dashboard-job-request .content .menu-background .profile-menu-toggler {
+    display: block;
+  }
+
+  #dashboard-job-request .content .menu-background {
+      position: absolute;
+      z-index: 1;
+      min-width: 250px;
+      left: -250px;
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -o-transition: all .4s ease;
+  }
+
+  #dashboard-job-request .content .job-dashboard {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+
+   #payments .content .side-menu .menu ul.menudo {
+    padding-left: 40px;
+  }
+
+  #payments .content .side-menu .menu ul.menudo {
+    padding-left: 12px;
+  }
+
+  #payments .content .menu-background .worker-profile .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58%;
+    flex: 0 0 58%;
+    max-width: 58%;
+    padding:0;
+  }
+
+  #payments .content .menu-background .worker-profile .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 36.666667%;
+    flex: 0 0 36.666667%;
+    max-width: 36.666667%;
+  }
+
+  #payments .content .worker-profile {
+    padding-left: 0;
+  }
+
+  #payments .content .menu-background .profile-menu-toggler {
+    display: block;
+  }
+
+  #payments .content .col-md-2.menu-background {
+      position: absolute;
+      z-index: 1;
+      min-width: 250px;
+      left: -250px;
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -o-transition: all .4s ease;
+  }
+
+  #payments .content .col-md-10{
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+
+  #resolution-center-view-page .details span.description {
+    padding: 10px 0 0 0;
+    display: block;
+  }
+
+  #resolution-center-view-page .resolution-details {
+    height: 611px;
+  }
+
+  #resolution-page .container.content .button.left {
+    padding-left: 200px;
+  }
+
+  #resolution-page .container.content .info .form-group-container .form-group textarea#complaint {
+    height: 327px;
+  }
+
+  #search-result-tyre-page .container.content .container-right .work-content .work-details .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 69.333333%;
+    flex: 0 0 69.333333%;
+    max-width: 69.333333%;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .car-kind .kind-entry {
+    padding: 0 0 0 3px;
+    }
+
+    #search-result-tyre-page .container.content .result .entry-container .tyre-details .image{
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    #search-result-tyre-page .container.content .result .entry-container .tyre-details .image:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 991px) {
+  #services-section .services-row .col {
+      max-width: 33.3%;
+      flex: 0 0 33.3%;
+      -ms-flex: 0 0 33.3%;
+  }
+
+  .slider-content.cars-3-col {
+      width: 400px;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content .col.first .top-text-container{
+  margin-left: 40%;
+  }
+
+  #service-preference .button-container {
+    padding-top: 30px;
+  }
+
+  #form-section-calendar-home-address .content .col-md-4 .header-container h3 {
+    font-size: 18px;
+  }
+
+  #form-section-calendar-home-address .content .work-content .text-container p {
+    font-size: 14px;
+  }
+
+  #form-section-calendar-home-address .content .work-content .col-md-11 {
+    max-width: 85.666667%;
+    flex: 0 0 85.666667%;
+    -ms-flex: 0 0 85.666667%;
+  }
+
+  #form-section-calendar-home-address .content .form-group {
+    width: 100%;
+  }
+
+  #form-section-calendar-home-address .content span.edit-address {
+    margin-left: 235px;
+  }
+
+  #business-details-form .content .row-container.vat .vat-content-container.number {
+    padding-left: 170px;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.second p.bottom-text {
+    width: 45px;
+  }
+
+  #form-section-quotation-page-1 .content .col-md-4 .header-container h3 {
+    font-size: 18px;
+  }
+
+  #form-section-quotation-page-1 .content .work-content .text-container p {
+    font-size: 14px;
+  }
+
+  #form-section-quotation-page-1 .content .work-content .col-md-11 {
+    max-width: 85.666667%;
+    flex: 0 0 85.666667%;
+    -ms-flex: 0 0 85.666667%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.popular {
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.mot {
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.tyres {
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.servicing {
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.diagnostic {
+    max-width: 18%;
+    flex: 0 0 18%;
+    -ms-flex: 0 0 18%;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container.pt-5.pb-5 .col-md-2.pre-purchase-inspections {
+    max-width: 41%;
+    flex: 0 0 41%;
+    -ms-flex: 0 0 41%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container .col {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 10px;
+  }
+
+  .job-request-section .content .table-content {
+    font-size: 15px;
+  }
+
+  .job-requests .anayltics .col-md-2{
+  	max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  .job-requests .anayltics .col-md-10{
+  	max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  .job-requests .anayltics .col-md-2 .value {
+    margin-bottom: 20px;
+  }
+
+  #dashboard-job-request .content .menu-background .worker-profile .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #dashboard-job-request .content .menu-background .worker-profile .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #dashboard-job-request .content .worker-profile .image {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #dashboard-job-request .content .worker-profile .text {
+    padding-top: 30px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+    padding-left: 0;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li a {
+    font-size: 15px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo li i.fas {
+    padding-right: 15px;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table thead {
+      display: none;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table thead {
+      display: none;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table thead {
+      display: none;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody, 
+  .job-requests #accordion .card .card-body table.dashboard-table {
+      display: block;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody, 
+  .job-requests #accordion .card .card-body table.dashboard-table {
+      display: block;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr, 
+  .job-requests #accordion .card .card-body table.dashboard-table tbody, 
+  .job-requests #accordion .card .card-body table.dashboard-table {
+      display: block;
+  }
+
+  tr.first-row td:last-child {
+    margin-bottom: 60px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+  	text-align: center;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space {
+    width: 100%;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td.small-space {
+    width: 100%;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td.big-space .form-check .form-check-label {
+    margin-bottom: 0;
+    font-size: 16px; 
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr {
+    border-bottom: 1px solid #a5a411;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr {
+    border-bottom: 1px solid #a5a411;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr {
+    border-bottom: 1px solid #a5a411;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:nth-child(2):before {
+      content: 'Label:';
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:nth-child(3):before {
+      content: 'Model:';
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:nth-child(4):before {
+      content: 'Miles:';
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:nth-child(5):before {
+      content: 'Price:';
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:nth-child(6):before {
+      content: 'Date (Time):';
+  }
+
+  .job-requests #accordion .card .card-body table.dashboard-table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 89px;
+      display: inline-block;
+  }
+
+  #system-dashboard .content .link .text {
+    width: 190px;
+  }
+
+  #system-dashboard .content .link {
+    height: 280px;
+  }
+
+  #garage-verification .table-content table thead {
+      display: none;
+  }
+
+  #garage-verification .table-content table tbody tr td, 
+  #garage-verification .table-content table tbody tr, 
+  #garage-verification .table-content table tbody, 
+  #garage-verification .table-content table {
+      display: block;
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(1):before {
+      content: 'Name:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(2):before {
+      content: 'Address:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(3):before {
+      content: 'Postal Code:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(4):before {
+      content: 'Tyres:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(5):before {
+      content: 'MOT:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(6):before {
+      content: 'Status:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(7):before {
+      content: 'Attachments:';
+  }
+
+  #garage-verification .table-content table tbody td:nth-child(8):before {
+      content: 'Approve:';
+  }
+
+  #garage-verification .table-content table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 100px;
+      display: inline-block;
+  }
+
+ #garage-verification .table-content table tbody tr {
+    border-bottom: 1px solid #a5a411;
+    padding-left: 25px;
+  }
+
+  #garage-verification .table-content table tbody tr:last-child {
+  	border-bottom: none;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table thead {
+      display: none;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr td, 
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr, 
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody, 
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table {
+      display: block;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(2):before {
+      content: 'No.:';
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(3):before {
+      content: 'Item:';
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(4):before {
+      content: 'Quantity:';
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 70px;
+      display: inline-block;
+  }
+
+ #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr {
+    border-bottom: 1px solid #ff7269;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td {
+    padding: 10px 10px 10px 5px;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .button-container {
+    padding-left: 80px;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark {
+    top: 150px;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr:last-child {
+  	border-bottom: none;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr td:last-child, 
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body table tbody tr td:nth-child(6){
+  	display: inline-block;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-4 p:nth-child(3) {
+    padding-top: 53px;
+  }
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-4 p:nth-child(4) {
+    padding-top: 20px;
+  }
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-8 p:nth-child(5) {
+    padding-top: 27px;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-header h3#exampleModalLongTitle {
+    display: block;
+    padding: 20px 0 0 0;
+  }
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-header .logo-container {
+    display: block;
+  }
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-header {
+    text-align: center;
+  }
+
+   #payments .content .menu-background .worker-profile .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #payments .content .menu-background .worker-profile .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #payments .content .worker-profile .image {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #payments .content .worker-profile .text {
+    padding-top: 30px;
+  }
+
+  #resolution-center .table-content table thead {
+      display: none;
+  }
+
+  #resolution-center .table-content table tbody tr td, 
+  #resolution-center .table-content table tbody tr, 
+  #resolution-center .table-content table tbody, 
+  #resolution-center .table-content table {
+      display: block;
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(1):before {
+      content: 'Ticket Reference:';
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(2):before {
+      content: 'Updated At:';
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(3):before {
+      content: 'Subject Code:';
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(4):before {
+      content: 'Reporter:';
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(5):before {
+      content: 'Type:';
+  }
+
+  #resolution-center .table-content table tbody td:nth-child(6):before {
+      content: 'Status:';
+      color: #333;
+  }
+
+  #resolution-center .table-content table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 130px;
+      display: inline-block;
+  }
+
+ #resolution-center .table-content table tbody tr {
+    border-bottom: 1px solid #a5a411;
+  }
+
+  #resolution-center .table-content table tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  #resolution-center-view-page .resolution-details {
+    height: 659px;
+  }
+
+  #resolution-page .container.content .button.left {
+    padding-left: 85px;
+ }
+
+ #search-result-tyre-page .container.content .container-right .work-content .work-details  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #search-result-tyre-page .container.content .container-right .work-content .work-details  .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #search-result-tyre-page .container.content .container-right .work-content .work-details  .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #search-result-tyre-page .container.content .result .details .form-check .form-check-label span.checkmark {
+    right: 105px;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .buy-row .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .action{
+    padding-bottom: 10px;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-body .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #headline-section .content p {
+      width: 100%;
+  }
+
+  .slider-section .slider-content .bx-wrapper .bx-controls-direction a.bx-prev, 
+  .slider-section .slider-content .bx-wrapper .bx-controls-direction a.bx-next {
+      top: auto;
+      bottom: 123px;
+  }
+
+  #services-section .services-row .col {
+      max-width: 50%;
+      flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+  }
+
+  #headline-section {
+      padding-top: 0!important;
+  }
+
+  .slider-section {
+      padding-top: 20px!important;
+  }
+
+  .slider-section .slider-content .bx-wrapper {
+      margin-bottom: 0;
+  }
+
+  .search-section form {
+      padding-bottom: 0;
+  }
+
+  #services-section {
+      padding-top: 0!important;
+      padding-bottom: 0!important;
+  }
+
+  #services-section .content {
+      padding-top: 15px!important;
+      padding-bottom: 0!important;
+  }
+
+  #services-section .services-row {
+      padding-bottom: 0!important;
+  }
+
+  .search-section {
+      padding-top: 50px;
+  }
+
+  #headline-section .content-container {
+      padding: 30px;
+  }
+
+  .slider-section .slider-content.cars-2-col .bx-wrapper .bx-controls-direction a.bx-prev {
+      left: 25px;
+      bottom: 125px;
+  }
+
+  .slider-section .slider-content.cars-2-col .bx-wrapper .bx-controls-direction a.bx-next {
+      right: 25px;
+      bottom: 125px;
+  }
+
+  .slider-section .slider-content .bottom-text {
+      position: relative;
+  }
+
+  .slider-content .entry .image-content {
+      height: auto;
+  }
+
+  #business-details-form .content .row-container.button .col-md-6{
+      max-width: 50%;
+      flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+  }
+
+  .row-container.name-email-post-code-info .post-code-container .form-group  {
+    margin-left: 0;
+  }
+
+  #business-details-form .row-container.name-email-post-code-info .look-address-button-container {
+      display: block;
+      padding-top: 0;
+      padding-left: 79px;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content .col {
+    max-width: 14.28%;
+      flex: 0 0 14.28%;
+      -ms-flex: 0 0 14.28%;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content .col-md-4.line {
+    display: none;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content p.bottom-text {
+    width: 47px;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content .col.first .top-text-container {
+    margin-left: 24%;
+  }
+
+  #service-preference .question-section .question-content-container .radio-content.first-question {
+    margin-left: 87px;
+  }
+
+  #email-validation .content .post-code-container {
+    padding-left: 50px;
+  }
+
+  #email-validation .container .content .slidecontainer {
+    padding-left: 20px;
+  }
+
+   #car-info .col-md-7 {
+    width: 170px;
+    max-width: 170px;
+    flex: 0 0 170px;
+    -ms-flex: 0 0 170px;
+  }
+  
+    #car-info .col-md-5 {
+    width: 213px;
+    max-width: 213px;
+    flex: 0 0 213px;
+    -ms-flex: 0 0 213px;
+  }
+
+  #mechanic-registration {
+      display: none;
+  }
+
+  #business-details-form .content .row-container.vat .vat-content-container {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+
+  #form-section-calendar-home-address .content span.edit-address {
+    margin-left: 306px;
+  }
+
+  #form-section-calendar-home-address .content .col-md-4 .header-container h3 {
+    font-size: 20px;
+  }
+
+  #form-section-calendar-home-address .content .work-content .text-container p {
+    font-size: 16px;
+  }
+
+  #form-section-calendar-home-address .content .work-content .col-md-1 {
+    max-width: 8%;
+    flex: 0 0 8%;
+    -ms-flex: 0 0 8%;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.first {
+     text-align: center; 
+     margin-left: 0;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.third {
+     text-align: center; 
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.first .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.third .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.second .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col {
+    max-width: 33%;
+    flex: 0 0 33%;
+    -ms-flex: 0 0 33%;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col-md-5.line {
+    display: none;
+  }
+
+  #headline-section-calendar-home-address .content-container .content .col.second p.bottom-text {
+    width: 167px;
+  }
+
+  #business-details-form .content .row-container.vat .col-md-2 {
+    max-width: 36%;
+  }
+
+  #business-details-form .content .row-container.vat .col-md-10 {
+    max-width: 64%;
+  }
+
+  #business-details-form .content .row-container.vat .vat-content-container.number {
+    padding-left: 0;
+  }
+
+  #business-details-form .content .row-container .vat-content-container .form-group {
+    width: 320px;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.first {
+     text-align: center; 
+     margin-left: 0;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.third {
+     text-align: center; 
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.first .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.third .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.second .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4 {
+    max-width: 33%;
+    flex: 0 0 33%;
+    -ms-flex: 0 0 33%;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-5.line {
+    display: none;
+  }
+
+  #headline-section\ mechanic-registration .content-container .content .col-md-4.second p.bottom-text {
+    width: 167px;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.first {
+     text-align: center; 
+     margin-left: 0;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.third {
+     text-align: center; 
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.first .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.third .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.second .top-text-container {
+     margin-right: auto;
+     margin-left: auto;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4 {
+    max-width: 33%;
+    flex: 0 0 33%;
+    -ms-flex: 0 0 33%;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-5.line {
+    display: none;
+  }
+
+  #headline-section-quotation-page-1 .content-container .content .col-md-4.second p.bottom-text {
+    width: 167px;
+  }
+
+  #form-section-quotation-page-1 .content .work-content .col-md-1 {
+    max-width: 8%;
+    flex: 0 0 8%;
+    -ms-flex: 0 0 8%;
+  }
+
+  #headline-section-quotation-page-1 {
+      display: none;
+  }
+
+  #headline-section-calendar-home-address {
+      display: none;
+  }
+
+  .calendar-build {
+      margin-bottom: 50px;
+  }
+
+  .job-request-section{
+    padding-top: 40px;
+  }
+
+  .job-request-section .content .table-content table.job-requests thead {
+      display: none;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td, 
+  .job-request-section .content .table-content table.job-requests tbody tr, 
+  .job-request-section .content .table-content table.job-requests tbody, 
+  .job-request-section .content .table-content table.job-requests {
+      display: block;
+  }
+
+  tr.first-row td:last-child {
+    margin-bottom: 60px;
+  }
+
+  #dashboard-job-request .content .side-menu .menu-dashboard-job-request ul.menudo {
+  	text-align: center;
+  }
+
+  #dashboard-job-request .content .menu-background {
+        width: 250px;
+  }
+
+  .job-requests .anayltics{
+  	padding-bottom: 20px;
+  }
+
+  #system-dashboard .content .link .text {
+    width: 250px;
+  }
+
+  #system-dashboard .content .link {
+    height: 250px;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table thead {
+      display: none;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table thead {
+      display: none;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table thead {
+      display: none;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr td, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody, 
+  #payments .content .accordions-drops .card .card-body table.payments-table {
+      display: block;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr td, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody, 
+  #payments .content .accordions-drops .card .card-body table.payments-table {
+      display: block;
+  }
+
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr td, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody tr, 
+  #payments .content .accordions-drops .card .card-body table.payments-table tbody, 
+  #payments .content .accordions-drops .card .card-body table.payments-table {
+      display: block;
+  }
+
+  tr.first-row td:last-child {
+    margin-bottom: 60px;
+  }
+
+   #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody tr {
+    border-bottom: 1px solid #a5a411;
+  }
+
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(1):before {
+      content: 'Customer Name:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(2):before {
+      content: 'Book Reference #:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(3):before {
+      content: 'Total Amount:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(4):before {
+      content: 'Motoryst Fees:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(5):before {
+      content: 'Stripes Fee:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:nth-child(6):before {
+      content: 'Net Amount:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card #collapseThree .card-body table.payments-table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 89px;
+      display: inline-block;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:nth-child(1):before {
+      content: 'Date:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:nth-child(2):before {
+      content: 'Invoice Num:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:nth-child(3):before {
+      content: 'Amount in VCAT:';
+      width: 135px;
+  }
+
+  #payments .content .accordions-drops #accordion .card .card-body table.payments-table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 89px;
+      display: inline-block;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container .col-md-4 {
+    max-width: 100px;
+    flex: 0 0 100px;
+    -ms-flex: 0 0 100px;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container .col-md-8 {
+    max-width: 260px;
+    flex: 0 0 260px;
+    -ms-flex: 0 0 260px
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container .col-md-3 {
+    max-width: 107px;
+    flex: 0 0 107px;
+    -ms-flex: 0 0 107px
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .container .col-md-2 {
+    width: 55px;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .left {
+    text-align: left;
+  }
+
+  #payments .content .modal-dialog.modal-lg .modal-content .modal-body .customer-info .col-md-6 {
+    width: 50%;
+  }
+
+  
+  #resolution-center-view-page .col-md-3 {
+    max-width: 186px;
+    flex: 0 0 186px;
+    -ms-flex: 0 0 186px;
+  }
+
+  #resolution-center-view-page .col-md-2 {
+    width: 20%;
+    max-width: 20%;
+    flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+  }
+
+  #resolution-center-view-page .col-md-10 {
+    width: 80%;
+    max-width: 80%;
+    flex: 0 0 80%;
+    -ms-flex: 0 0 80%;
+  }
+
+  #resolution-center-view-page .user i.fas.fa-user {
+    padding-top: 40px;
+ }
+
+ #resolution-center-view-page .resolution-details .detail .col-md-5  {
+    width: 40%;
+    max-width: 40%;
+    flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+  }
+
+  #resolution-center-view-page .resolution-details .detail .col-md-7 {
+    width: 60%;
+    max-width: 60%;
+    flex: 0 0 60%;
+    -ms-flex: 0 0 60%;
+  }
+
+  #resolution-center-view-page .resolution-details {
+    height: 525px;
+  }
+
+  #resolution-page .container.content .info .col-md-5 {
+    width: 220px;
+  }
+
+  #resolution-page .container.content .info .col-md-7 {
+    width: 320px;
+  }
+
+  #resolution-page .container.content .button.left {
+    padding-left: 0;
+  }
+
+  #resolution-page .container.content .button{
+    padding-bottom: 50px;
+  }
+
+  #resolution-page .container.content .col-md-6.pt-3 {
+    padding-bottom: 20px;
+ }
+
+  #search-result-tyre-page .container.content .result .details .form-check .form-check-label span.checkmark {
+    right: 485px;
+  }
+
+  #search-result-tyre-page .container.content .result .entry-container .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #search-result-tyre-page .container.content .result .entry-container .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    padding-left: 0px;
+    text-align: right;
+  }
+
+  #garage-verification .modal-dialog.modal-lg .modal-content .modal-header .header-text, #garage-verification .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    display: block;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+  .slider-content.cars-2-col,
+  .slider-content.cars-3-col {
+      width: 330px;
+  }
+
+  .slider-section .slider-content.cars-2-col .image-content img,
+  .slider-section .slider-content.cars-3-col .image-content img {
+      height: 130px;
+  }
+
+  .slider-section .slider-content .bottom-text .car-detail-entry {
+      display: block;
+      border-right: 0;
+      padding-right: 0;
+  }
+
+  .slider-section .slider-content .bottom-text .car-detail-entry:last-child {
+      padding-left: 0;
+  }
+  #mechanic-registration .content-container.mechanic-signup .content .col {
+    max-width: 14.28%;
+      flex: 0 0 14.28%;
+      -ms-flex: 0 0 14.28%;
+  }
+
+  #mechanic-registration .content-container.mechanic-signup .content .col-md-4.line {
+    display: none;
+  }
+
+  #form-section-quotation-page-1 .content .button-container,
+  #form-section-calendar-home-address .content .button-container {
+    padding-bottom: 30px;
+  }
+
+  #form-section-quotation-page-1 .content .form-check .form-check-label {
+      font-size: 14px;
+  }
+
+  #form-section-quotation-page-1 .content .navigation-container .bar-container .text-content a {
+      font-size: 14px;
+  }
+
+  .calendar-build .calendar-table-container table.calendar-table thead {
+      display: none;
+  }
+
+  .calendar-build .calendar-table-container table.calendar-table tbody tr td, 
+  .calendar-build .calendar-table-container table.calendar-table tbody tr, 
+  .calendar-build .calendar-table-container table.calendar-table tbody, 
+  .calendar-build .calendar-table-container table.calendar-table {
+      display: block;
+  }
+
+  .calendar-build .calendar-table-container table.calendar-table tbody tr {
+      margin-bottom: 20px;
+  }
+
+  .calendar-build .calendar-table-container table.calendar-table tbody tr td a.time-link .day-info {
+      display: inline-block;
+      margin-right: 5px;
+      font-weight: 400;
+      font-size: 10px;
+      text-transform: uppercase;
+      vertical-align: top;
+      margin-top: 2px;
+  }
+
+  .job-request-section .content .table-content table.job-requests thead {
+      display: none;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td, 
+  .job-request-section .content .table-content table.job-requests tbody tr, 
+  .job-request-section .content .table-content table.job-requests tbody, 
+  .job-request-section .content .table-content table.job-requests {
+      display: block;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td {
+      border-bottom: 0;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:last-child {
+      border-bottom: 1px solid #e2e2e2;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:before {
+      content: '';
+      font-weight: bold;
+      margin-right: 10px;
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(1):before {
+      content: 'Quote Num:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(2):before {
+      content: 'Description:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(3):before {
+      content: 'Make/Model:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(4):before {
+      content: 'Post Code:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(5):before {
+      content: 'Distance:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(6):before {
+      content: 'Net Income:';
+  }
+
+  .job-request-section .content .table-content table.job-requests tbody tr td:nth-child(7):before {
+      content: 'Date:';
+  }
+
+  tr.first-row td:last-child {
+    margin-bottom: 60px;
+  }
+
+  .job-requests #accordion .card .card-body .action-bar {
+      text-align: center;
+      width: 160px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .job-requests #accordion .card .card-body .action-bar span {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  .job-requests #accordion .card .card-body .action-bar .dropdown button.btn.btn-primary.dropdown-toggle {
+      margin-left: 0;
+  }
+
+  .job-requests #accordion .card .card-body .action-bar .dropdown {
+      margin-bottom: 10px;
+  }
+
+  .job-requests #accordion .card .card-body .action-bar button {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  #resolution-center-view-page .col-md-3 {
+    max-width: 135px;
+    flex: 0 0 135px;
+    -ms-flex: 0 0 135px;
+  }
+
+  .calendar-mobile-only {
+    display: block;
+  }
+
+  .calendar-desktop-only {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  #services-section .services-row .col {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+}

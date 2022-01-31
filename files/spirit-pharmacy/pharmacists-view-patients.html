@@ -1,0 +1,601 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pharmacists - View Patients</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body id="home-dashboard">
+
+  <!-- Add your site or application content here -->
+  <header id="main-header-dashboard">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 pt-2 patient">
+          <div class="left-header">
+            <div class="logo-container">
+              <a href="#" class="logo-link">
+              <img src="img/Pharmacy stacked logo-transparent.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 pt-2 patient">
+          <div class="right-header">
+            <div class="text-container">
+              <small>Spirit Pharmacy</small>
+              <h4>Super Admin Portal</h4>
+            </div>
+            <div class="burger-button">
+              <a href="#" class="mobile-menu-toggler"><i class="fas fa-bars"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <div class="user-image-container">
+          <img src="img/person-avatar.jpg">           
+        </div>
+        <div class="name-container">
+          <small>Welcome</small>
+          <p>John Doe</p>
+        </div>
+        <div class="menudo">
+          <ul>
+            <li><a href="#"><img src="img/home-side-menu.png" alt=""><span>Home</span></a></li>
+            <li><a href="#"><img src="img/order-side-menu.png" alt=""><span>Order Management</span></a></li>
+            <li><a href="#"><img src="img/patient-side-menu.png" alt=""><span>Patient Management</span></a></li>
+            <li><a href="#"><img src="img/user-side-menu.png" alt=""><span>User Management</span></a></li>
+            <li><a href="#"><img src="img/trud-side-menu.png" alt=""><span>TRUD Management</span></a></li>
+            <li><a href="#"><img src="img/settings-side-menu.png" alt=""><span>Configuration</span></a></li>
+            <li><a href="#"><img src="img/report-side-menu.png" alt=""><span>Reports</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="pharmacist-view-patients">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 side-menu-background">
+          <div class="box-container">
+            <div class="profile-container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="user-image-container">
+                    <img src="img/person-avatar.jpg">                    
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="name-container">
+                    <small>Welcome</small>
+                    <p>John Doe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="side-menu">
+              <div class="container">
+                <ul>
+                  <li><a href="#"><img src="img/home-side-menu.png" alt=""><span>Home</span></a></li>
+                  <li><a href="#"><img src="img/order-side-menu.png" alt=""><span>Order Management</span></a></li>
+                  <li><a href="#"><img src="img/patient-side-menu.png" alt=""><span>Patient Management</span></a></li>
+                  <li><a href="#"><img src="img/user-side-menu.png" alt=""><span>User Management</span></a></li>
+                  <li><a href="#"><img src="img/trud-side-menu.png" alt=""><span>TRUD Management</span></a></li>
+                  <li><a href="#"><img src="img/settings-side-menu.png" alt=""><span>Configuration</span></a></li>
+                  <li><a href="#"><img src="img/report-side-menu.png" alt=""><span>Reports</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="collapse-menu-button">
+              <a href="#">
+                <img src="img/collapse-button.png" alt=""><span>Collapse Menu</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 content">
+          <div class="content-container">
+            <div class="text">
+              <h4>Patients</h4>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="content">
+                  <div class="header">
+                    <div class="search-bar hd">
+                      <div class="search-bar-container">
+                        <div class="form-group">
+                          <i class="fas fa-search"></i>
+                          <input type="text" class="form-control" id="search-bar" placeholder="Name, DofB, Post Code, Email, Patient ID">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filters-container">
+                      <div class="date-from hd">
+                        <div class="date-from-container">
+                          <div class="label">
+                              <div class="label-container">
+                                  <label>From</label>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="date" class="form-control" id="date-from" placeholder="MM/DD/YR">
+                          </div>
+                        </div>
+                      </div>
+                       <div class="date-to hd">
+                        <div class="date-to-container">
+                          <div class="label">
+                              <div class="label-container">
+                                  <label>To</label>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="date" class="form-control" id="date-to" placeholder="MM/DD/YR">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="filter hd">
+                        <div class="filter-container">
+                          <div class="label">
+                              <div class="label-container">
+                                  <label>Filters</label>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control" id="filter">
+                              <option >All</option>
+                              <option>Filter 2</option>
+                              <option>Filter 3</option>
+                              <option>Filter 4</option>
+                              <option>Filter 5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown hd">
+                        <div class="dropdown-container">
+                          <div class="form-group">
+                            <select class="form-control" id="dropdown">
+                              <option >All</option>
+                              <option>Action 2</option>
+                              <option>Action 3</option>
+                              <option>Action 4</option>
+                              <option>Action 5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="table">
+                    <div class="table-container">
+                      <table>
+                        <thead>
+                          <th>ID</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Date of Birth</th>
+                          <th>Email Address</th>
+                          <th>Post Code</th>
+                          <th>Created Date</th>
+                          <th>Nominated</th>
+                          <th>Recurring</th>
+                          <th>Status</th>
+                          <th>Actions</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                          <tr>
+                            <td>1021</td>
+                            <td>Nathan</td>
+                            <td>De Guia</td>
+                            <td>15/03/1969</td>
+                            <td>nathan@gmail.com</td>
+                            <td>NG118CC</td>
+                            <td>12:11/2021 | 10:00 AM</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Step 3</td>
+                            <td><button class="table-button"><i class="far fa-edit"></i></button></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 pt-3">
+                 <div class="content-footer">
+                    <div class="content-footer-container">
+                      <div class="number-of-patients ftr">
+                        <div class="number-of-patients-container">
+                          <p>Number of patients: 10</p>
+                        </div>
+                      </div>
+                      <div class="pager-container">
+                        <div class="results-per-page ftr">
+                          <div class="results-per-page-container">
+                            <div class="label">
+                              <div class="label-container">
+                                  <label>Results Per Page</label>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                            <select class="form-control" id="filter">
+                              <option >10</option>
+                              <option>20</option>
+                              <option>30</option>
+                              <option>40</option>
+                              <option>50</option>
+                            </select>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="page-number ftr">
+                          <div class="page-number-container">
+                            <div class="two-arrow pgnmbr">
+                              <div class="two-arrow-container">
+                                <a href="#"><img src="img/two-arrow-left.png" alt=""></a>
+                              </div>
+                            </div>
+                            <div class="one-arrow pgnmbr">
+                              <div class="one-arrow-container">
+                                <a href="#"><img src="img/one-arrow-left.png" alt=""></a>
+                              </div>
+                            </div>
+                            <div class="number pgnmbr">
+                              <div class="number-container">
+                                <p>Page 1 of 1</p>
+                              </div>
+                            </div>
+                             <div class="one-arrow pgnmbr">
+                              <div class="one-arrow-container">
+                                <a href="#"><img src="img/one-arrow-right.png" alt=""></a>
+                              </div>
+                            </div>
+                            <div class="two-arrow pgnmbr">
+                              <div class="two-arrow-container">
+                                <a href="#"><img src="img/two-arrow-right.png" alt=""></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal fade" id="new-order" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn close" data-dismiss="modal">
+                    <span class="text">close</span><span class="x" aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="header-text">
+                    <h2 class="modal-title" id="exampleModalLongTitle">New Order</h2>
+                  </div>                  
+                  <div class="add-patient-link">
+                    <a href="#">Add New Patient</a>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="content-container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label for="patient-name">Find Patient<span class="required">*</span></label>
+                              <input type="text" name="patient-name" id="patient-name" placeholder="James" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-8 pt-3">
+                            <div class="form-group">
+                              <label for="item-name">Find Item<span class="required">*</span></label>
+                              <input type="text" name="item-name" id="item-name" placeholder="James" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 pt-3">
+                            <div class="form-group">
+                              <label for="quantity">Qty:</label>
+                              <input type="number" class="form-control" id="quantity" name="quantity" min="1" max="100">
+                            </div>
+                          </div>
+                          <div class="col-md-4 offset-md-8 pt-3">
+                            <button type="button" class="btn add-item-btn"><i class="fas fa-plus"></i> Add Item</button>
+                          </div>
+                          <div class="col-md-12 pt-3">
+                              <div class="form-group">
+                                  <label for="notes">Notes</label>
+                                  <textarea class="form-control" id="notes" placeholder=""></textarea>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="button-container">
+                              <button type="button" class="btn btn-create-order">Create Order</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="table-container">
+                        <div class="table-content">
+                          <div class="items-table-container">
+                            <div class="header">
+                              <h5>Items Added</h5>
+                            </div>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th class="number">No.</th>
+                                  <th>Item</th>
+                                  <th colspan="2">Qty</th>
+                                </tr> 
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>Paracetamol 500 mg tablets 20</td>
+                                  <td>1</td>
+                                  <td>
+                                    <div class="button-container">
+                                      <a href="#" class="delete"><i class="far fa-trash-alt"></i> Remove</a>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <div class="bottom-footer">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-text-container">
+                <p>Copyright &copy; Spirit Pharmacy 2021</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

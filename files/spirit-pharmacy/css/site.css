@@ -1,0 +1,5058 @@
+/*registration-1*/
+
+#registration .content-container .step-number .top-text {
+	padding: 5px;
+	border-radius: 100%;
+	background-color: #dadee7;
+	width: 37px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #feffff;
+}
+
+#registration .content-container .step-number {
+	text-align: center;
+	position: relative;
+}
+
+#registration .content-container .col-md-4.active .step-number .top-text {
+	background-color:#ff7269;
+	color: #fff;
+}
+
+#registration .content-container .col-md-4.active .step-number .bottom-text {
+	color: #ff7269;
+}
+
+#registration .content-container .step-number .bottom-text {
+	font-weight: 500;
+	color: #848484;
+}
+
+#registration .content-container .step-number:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 30px);
+    background-color: #e2e2e2;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#registration .content-container .col-md-4:last-child .step-number:after {
+	display: none;
+}
+
+#registration .container .text-center h1 {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#registration .content-container .contact-detail .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#registration .content-container .contact-detail .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+#registration .contact-detail .detail-container label span {
+    color: #ff7269;
+}
+
+#registration .contact-detail .detail-container label {
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+#registration .contact-detail .detail-container {
+	padding-top: 20px;
+}
+
+#registration .contact-detail .error-message p {
+  margin-bottom: 0;
+}
+
+div#registration .col.pt-5 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#registration .content-container {
+    padding: 30px 50px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+}
+
+#registration .contact-detail .form-check {
+	padding-left: 0;
+}
+
+#registration .contact-detail .buttons .button-container button {
+	padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+}
+
+#registration .contact-detail .buttons .button-container button.previous {
+    background-color: #fcf8f5;
+    color: #c4c4c6;
+    margin-right: 30px;
+}
+
+#registration .contact-detail .buttons .button-container button.next {
+    padding: 20px 44px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#registration .contact-detail .buttons .button-container {
+	display: inline-block;
+}
+
+#registration .contact-detail .buttons {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#registration .contact-detail .text .container {
+    background-color: #f6f6f6;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+
+#registration .contact-detail .text {
+	text-align: center;
+}
+
+#registration .contact-detail .text p.sign-in {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+#registration .contact-detail .text a {
+	color: #6995d4;
+}
+
+#registration .bottom-details .container {
+	padding: 0;
+}
+
+#registration .bottom-details .container i.far.fa-check-circle{
+	color: #7dc0b9;
+	font-size: 20px;
+}
+
+.detail-container.error .form-group .form-control {
+    border: 1px solid #ff7269;
+}
+
+#registration .contact-detail .error-message {
+  color: #ff7269;
+}
+
+div#registration .content-container .step-number-mobile .text {
+    text-align: center;
+}
+
+div#registration .content-container .line-container .line {
+  height: 3px;
+  background-color: #dadee7;
+}
+
+div#registration .content-container .line-container .col-md-4 {
+  padding: 0;
+}
+
+div#registration .content-container .line-container .col-md-4 .line.active {
+  background-color: #ff7269;
+}
+
+div#registration .content-container .step-number-mobile, 
+div#registration .content-container .line-container {
+  display: none;
+}
+
+
+
+
+
+
+
+/*registration-2*/
+
+div#registration-2 .col.pt-5 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#registration-2 .content-container {
+    padding: 30px 50px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+}
+
+#registration-2 .content-container .col-md-4:first-child .step-number:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 30px);
+    background-color:  #ff7269;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#registration-2 .welcome-pack .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#registration-2 .welcome-pack .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#registration-2 .welcome-pack .detail-container label span {
+    color: #ff7269;
+}
+
+#registration-2 .welcome-pack .detail-container label {
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+#registration-2 .welcome-pack .detail-container {
+	padding-bottom: 40px;
+}
+
+#registration-2 .welcome-pack h3 {
+	padding-bottom: 30px;
+}
+
+#registration-2 .welcome-pack .form-check {
+	padding-left: 0;
+}
+
+#registration-2 .welcome-pack .buttons .button-container button {
+	padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+}
+
+#registration-2 .welcome-pack .buttons .button-container button.previous {
+    background-color: #fcf8f5;
+    color: #c4c4c6;
+    margin-right: 30px;
+}
+
+#registration-2 .welcome-pack .buttons .button-container button.next {
+    padding: 20px 44px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#registration-2 .welcome-pack .buttons .button-container {
+	display: inline-block;
+}
+
+#registration-2 .welcome-pack .buttons {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#registration-2 .welcome-pack .text .container {
+    background-color: #f6f6f6;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+
+#registration-2 .welcome-pack .text {
+	text-align: center;
+}
+
+#registration-2 .welcome-pack .text p.sign-in {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+#registration-2 .welcome-pack .text a {
+	color: #6995d4;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  padding-bottom: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container input,
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container span.checkmark,
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container:hover input ~ .checkmark,
+.radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container input:checked ~ .checkmark,
+.radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #ff7269;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container input:checked ~ span.checkmark:after,
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#registration-2 .welcome-pack .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#registration-2 .welcome-pack .packs .form-group select#select-pack {
+    height: 45px;
+}
+
+div#registration-2 .content-container .step-number-mobile .text {
+    text-align: center;
+}
+
+div#registration-2 .content-container .line-container .line {
+  height: 3px;
+  background-color: #dadee7;
+}
+
+div#registration-2 .content-container .line-container .col-md-4 {
+  padding: 0;
+}
+
+div#registration-2 .content-container .line-container .col-md-4 .line.active {
+  background-color: #ff7269;
+}
+
+div#registration-2 .content-container .step-number-mobile, 
+div#registration-2 .content-container .line-container {
+  display: none;
+}
+
+
+/*registration-3*/
+
+#registration-3 .col.pt-5 {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#registration-3 .content-container {
+    padding: 30px 50px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+}
+
+#registration-3 .content-container .col-md-4 .step-number:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: calc(100% - 30px);
+    background-color:  #ff7269;
+    left: calc(50% + 30px);
+    top: 50%;
+}
+
+#registration-3 .final-details .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#registration-3 .final-details .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#registration-3 .final-details .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#registration-3 .final-details .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#registration-3 .final-details .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#registration-3 .final-details .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#registration-3 .final-details .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#registration-3 .final-details .detail-container label span {
+    color: #ff7269;
+}
+
+#registration-3 .final-details .detail-container label {
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+#registration-3 .final-details .detail-container {
+	padding-bottom: 40px;
+}
+
+#registration-3 .final-details h3 {
+	padding-bottom: 30px;
+}
+
+#registration-3 .final-details .form-check {
+	padding-left: 0;
+}
+
+#registration-3 .final-details .buttons .button-container button {
+	padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+}
+
+#registration-3 .final-details .buttons .button-container button.previous {
+    background-color: #f3e9e0;
+    color: #212133;
+    margin-right: 30px;
+}
+
+#registration-3 .final-details .buttons .button-container button.next {
+    padding: 20px 44px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#registration-3 .final-details .buttons .button-container {
+	display: inline-block;
+}
+
+#registration-3 .final-details .buttons {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#registration-3 .final-details .text .container {
+    background-color: #f6f6f6;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+
+#registration-3 .final-details .text {
+	text-align: center;
+}
+
+#registration-3 .final-details .text p.sign-in {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+#registration-3 .final-details .text a {
+	color: #6995d4;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 30px;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container input,
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container span.checkmark,
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container:hover input ~ .checkmark,
+.radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container input:checked ~ .checkmark,
+.radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #ff7269;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container input:checked ~ span.checkmark:after,
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#registration-3 .final-details .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#registration-3 .final-details .packs .form-group select#select-pack {
+    height: 45px;
+}
+
+button.lookup-address {
+    background-color: #f3e9e0;
+    color: #212133;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+    margin-top: 37px;
+}
+
+#registration-3 .content-container .final-details .address .post-code-container input#input-post-code {
+    height: 50px;
+}
+
+#registration-3 .content-container .final-details .address .post-code-container label {
+    padding-bottom: 15px;
+}
+
+#registration-3 .content-container .final-details .birthday label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+#registration-3 .content-container .final-details .birthday input#birthday {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ecebe9;
+    padding-left: 20px;
+}
+
+#registration-3 .content-container .final-details span {
+    color: #ff7269;
+}
+
+
+#registration-3 .content-container .final-details small {
+  font-style: italic;
+}
+
+div#registration-3 .content-container .step-number-mobile .text {
+    text-align: center;
+}
+
+div#registration-3 .content-container .line-container .line {
+  height: 3px;
+  background-color: #dadee7;
+}
+
+div#registration-3 .content-container .line-container .col-md-4 {
+  padding: 0;
+}
+
+div#registration-3 .content-container .line-container .col-md-4 .line.active {
+  background-color: #ff7269;
+}
+
+div#registration-3 .content-container .step-number-mobile, 
+div#registration-3 .content-container .line-container {
+  display: none;
+}
+
+
+
+
+
+/*home-dashboard*/
+
+
+
+#main-header-dashboard {
+    border-top: 5px solid #ff7269;
+}
+
+#main-header-dashboard .right-header .text-container {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding: 20px 0 15px 20px;
+}
+
+#main-header-dashboard .container-fluid {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+#main-header-dashboard .right-header .text-container small {
+    font-weight: 300;
+}
+
+#home-dashboard .side-menu .container ul {
+    list-style-type: none;
+    padding-left: 27px;
+}
+
+#home-dashboard .side-menu .container ul li a {
+  color: #bbbabf;
+  text-decoration: none;
+}
+
+#home-dashboard .side-menu .container ul li {
+  padding-bottom: 20px;
+}
+
+#home-dashboard .side-menu .container ul li:last-child {
+  padding-bottom: 0px;
+}
+
+#home-dashboard .side-menu .container ul li a i.fas {
+  padding-right: 15px;
+  font-size: 25px;
+}
+
+.side-menu-background.side-menu-hidden .side-menu .container ul li a span {
+    display: none;
+}
+
+.side-menu-background.side-menu-hidden .profile-container .name-container {
+    display: none;
+}
+
+.profile-container {
+    margin-bottom: 30px;
+}
+
+.side-menu-background.side-menu-hidden {
+    max-width: 160px;
+    flex: 0 0 160px;
+    -ms-flex: 0 0 160px;
+}
+
+#home-dashboard .profile-container .name-container p {
+    font-size: 20px;
+    margin: 0;
+}
+
+#home-dashboard .profile-container .user-image-container {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin-left: 40px;    
+    overflow: hidden;
+}
+
+#home-dashboard .box-container {
+  padding-top: 40px;
+  position: relative;
+  height: 100%;
+}
+
+#home-dashboard .col-md-2 {
+  border-right: 2px solid #f1f1f1;
+}
+
+#home-dashboard .col-md-10.content {
+  background-color: #f8f8f8;
+}
+
+#home-dashboard .content-container h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#home-dashboard .content-container {
+  padding-left: 20px;
+  padding-bottom: 110px;
+}
+
+#home-dashboard .content-container .graph-container {
+    height: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#home-dashboard .content-container .graph-container .top-text small {
+    padding-left: 20px;
+    font-weight: 400;
+    color: #bbbabf;
+}
+
+#home-dashboard .content-container .graph-container a .reload-button {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #ff7269;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    float: right;
+}
+
+#home-dashboard .content-container .graph-container .reload-button  i.fas.fa-sync {
+    padding-top: 11px;
+}
+
+#home-dashboard .content-container .graph-container .top-text {
+    display: inline-block;
+}
+
+#home-dashboard .content-container .graph-container .top-text.name {
+    font-weight: 600;
+}
+
+#home-dashboard .side-menu .container ul li a.active {
+    color: #212133;
+}
+
+#home-dashboard .side-menu .container ul li a.active i.fas {
+  color: #ffaea8;
+}
+
+#home-dashboard .content-container .link-container {
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#home-dashboard .content-container .link-container .icon {
+  font-size: 40px;
+}
+
+#home-dashboard .content-container .link-container .icon.active {
+  color: #ffaea8;
+}
+
+#home-dashboard .content-container .link-container .text p.name {
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+#home-dashboard .content-container .link-container .text a {
+    color: #638dd5;
+}
+
+
+#main-header-dashboard .logo-container {
+    padding: 10px;
+}
+
+#main-header-dashboard .logo-container img {
+  object-fit: contain;
+  height: 67px;
+  width: 100%;
+}
+
+#home-dashboard .box-container .collapse-menu-button a {
+    text-decoration: none;
+    color: #212133;
+}
+
+#home-dashboard .box-container .collapse-menu-button {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.side-menu-background.side-menu-hidden .collapse-menu-button a span {
+    display: none;
+}
+
+.side-menu-background.side-menu-hidden + .content {
+    max-width: calc(100% - 160px);
+    flex: 0 0 calc(100% - 160px);
+    -ms-flex: 0 0 calc(100% - 160px);
+}
+
+#home-dashboard .box-container .collapse-menu-button i.far.fa-arrow-alt-circle-left {
+  padding-right: 10px;
+  color: #bbbabf;
+}
+
+.bottom-footer .footer-text-container {
+    text-align: center;
+}
+
+.bottom-footer .footer-text-container p {
+  padding-top: 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#home-dashboard .col-md-2.side-menu-background.show {
+  width: 50%;
+}
+
+#home-dashboard .col-md-2.side-menu-background.hide {
+  width: 100%;
+}
+
+#home-dashboard .box-container .container img {
+    padding-right: 20px;
+}
+
+#home-dashboard .box-container .collapse-menu-button img {
+  padding-right: 20px;
+}
+
+#main-header-dashboard .mobile-menu .menudo ul {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+#main-header-dashboard .mobile-menu .menudo ul li a {
+    color: #bbbabf;
+    text-decoration: none;
+}
+
+#main-header-dashboard .mobile-menu .menudo ul li a img {
+    padding-right: 20px;
+}
+
+#main-header-dashboard .mobile-menu .menudo ul li {
+  padding-bottom: 20px;
+}
+
+#main-header-dashboard .mobile-menu .name-container {
+  text-align: center;
+}
+
+#main-header-dashboard .mobile-menu  .user-image-container {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#main-header-dashboard .mobile-menu {
+    border-top: 1px solid #e2e2e2;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    left: -100%;
+    padding-top: 30px;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+
+#main-header-dashboard .mobile-menu.mobile-menu-shown {
+    left: 0;  
+}
+
+
+
+
+
+/*order-details*/
+
+
+
+#order-details .side-menu .container ul {
+    list-style-type: none;
+}
+
+#order-details .side-menu .container ul li a {
+  color: #bbbabf;
+  text-decoration: none;
+}
+
+#order-details .side-menu .container ul li {
+  padding-bottom: 20px;
+}
+
+#order-details .side-menu .container ul li:last-child {
+  padding-bottom: 0px;
+}
+
+#order-details .side-menu .container ul li a i.fas {
+  padding-right: 15px;
+  font-size: 25px;
+}
+
+#order-details .profile-container .name-container p {
+    font-size: 20px;
+}
+
+#order-details .profile-container .user-image-container {
+    width: 50px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+#order-details .box-container {
+  padding-top: 40px;
+  height: 100%;
+  position: relative;
+}
+
+#order-details .col-md-2 {
+  border-right: 2px solid #f1f1f1;
+}
+
+#order-details .col-md-10.content {
+  background-color: #f8f8f8;
+}
+
+#order-details .content-container h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#order-details .content-container {
+  padding-left: 20px;
+  padding-bottom: 60px;
+}
+
+#order-details .content-container .graph-container {
+    height: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#order-details .content-container .graph-container .top-text small {
+    padding-left: 20px;
+    font-weight: 400;
+    color: #bbbabf;
+}
+
+#order-details .content-container .graph-container a .reload-button {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #ff7269;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    float: right;
+}
+
+#order-details .content-container .graph-container .reload-button  i.fas.fa-sync {
+    padding-top: 11px;
+}
+
+#order-details .content-container .graph-container .top-text {
+    display: inline-block;
+}
+
+#order-details .content-container .graph-container .top-text.name {
+    font-weight: 600;
+}
+
+#order-details .side-menu .container ul li a.active {
+    color: #212133;
+}
+
+#order-details .side-menu .container ul li a.active i.fas {
+  color: #ffaea8;
+}
+
+#order-details .content-container .link-container {
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#order-details .content-container .link-container .icon {
+  font-size: 40px;
+}
+
+#order-details .content-container .link-container .icon.active {
+  color: #ffaea8;
+}
+
+#order-details .content-container .link-container .text p.name {
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+#order-details .content-container .link-container .text a {
+    color: #638dd5;
+}
+
+#order-details .box-container .collapse-menu-button a {
+    text-decoration: none;
+    color: #212133;
+}
+
+#order-details .box-container .collapse-menu-button i.far.fa-arrow-alt-circle-left {
+  padding-right: 10px;
+  color: #bbbabf;
+}
+
+#order-details .content-container .detail-container .header-container .header-text {
+  display: inline-block;
+}
+
+#order-details .content-container .detail-container .header-container .button-container {
+  display: inline-block;
+  float: right;
+}
+
+#order-details .content-container .detail-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+}
+
+#order-details .content-container .detail-container .header-container {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+#order-details .content-container .detail-container .header-container .button-container i.far.fa-edit {
+    padding-right: 10px;
+}
+
+#order-details .content-container .detail-container .header-container .button-container p {
+  margin-bottom: 0;
+}
+
+#order-details .content-container .detail-container .right-details {
+    width: 165px;
+    margin-left: 50px;
+}
+
+#order-details .content-container .detail-container .detail.address {
+    padding-bottom: 47px;
+}
+
+#order-details .content-container .detail-container .left-details {
+  color: #8f8f97;
+}
+
+#order-details .content-container .detail-container .left-details .detail:last-child p {
+  margin-bottom: 0;
+}
+
+#order-details .content-container .detail-container .right-details .detail:last-child p {
+  margin-bottom: 0;
+}
+
+#order-details .content-container .detail-container .header-container .button-container button {
+  padding: 10px 20px;
+  background-color: #f9f4f0;
+  font-size: 13px;
+  border-radius: 8px;
+  color: #212133!important;
+  font-weight: 600;
+  border: 0;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .update-button-container button {
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background-color: #ff7269;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .action {
+    width: 200px;
+    margin-left: 30px;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .bottom {
+  display: inline-block;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .selected {
+  color: #ff7269;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .link-create-prescription a {
+  color: #638dd5;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .link-create-prescription .add-item-btn-container {
+    margin-bottom: 20px;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header .update-button-container {
+  padding-left: 15px;
+} 
+
+#order-details .content-container .detail-container .header-container .bottom-header .link-create-prescription {
+    float: right;
+    margin-top: -40px;
+}
+
+#order-details .content-container .detail-container .header-container .bottom-header {
+  padding-top: 20px;
+}
+
+#order-details .content-container .detail-container .details table {
+    width: 100%;
+}
+
+.form-check .form-check-label {
+    position: relative;
+}
+
+#order-details .content-container .detail-container .details table tbody td.checkbox .form-check .form-check-label span.checkmark{
+  position: absolute;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.order-info-container .order-info {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.order-info-container .order-info label {
+    font-weight: bold;
+}
+
+.order-info-container .order-info .value.order-received {
+    color: #3fc587;
+}
+
+.order-info-container .order-info .value.order-pending {
+    color: #aaa;
+}
+
+.order-info-container .order-info .value.order-in-progress {
+    color: #212133;
+}
+
+.order-info-container .order-info .value.order-cancelled {
+    color: #ab2d25;
+}
+
+.order-info-container {
+    margin-bottom: 20px;
+}
+
+#order-details .content-container .detail-container .details table tbody tr td.checkbox .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#order-details .content-container .detail-container .details table tbody tr td.checkbox .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#order-details .content-container .detail-container .details table tbody tr td.checkbox .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#order-details .content-container .detail-container .details table tbody tr td.checkbox .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#order-details .content-container .detail-container .details {
+  padding-top: 15px;
+}
+
+#order-details .content-container .detail-container .details table tbody tr:last-child td {
+  padding-bottom: 0px;
+}
+
+#order-details .content-container .detail-container .details table thead tr th.description {
+    width: 500px;
+    max-width: 500px;
+}
+
+#order-details .box-container .container img {
+    padding-right: 20px;
+}
+
+#order-details .box-container .collapse-menu-button img {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+/*pharmacists-dashboard*/
+
+
+
+#pharmacists-dashboard .content-container .content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#pharmacists-dashboard .content-container .content .hd {
+  display: inline-block;
+}
+
+#pharmacists-dashboard .content-container .content .create-link {
+  float: right;
+  margin-top: 1px;
+}
+
+#pharmacists-dashboard .content-container .content .search form#search-form span {
+    position: absolute;
+    color: #bbbabf;
+    right: 15px;
+    top: 8px;
+}
+
+#pharmacists-dashboard .content-container .content .search {
+    width: 500px;
+    float: right;
+    margin-right: 30px;
+}
+
+form#search-form {
+    position: relative;
+}
+
+#pharmacists-dashboard .content-container .content .search form#search-form input#search-bar {
+    height: 40px;
+    border-radius: 10px;
+}
+
+#pharmacists-dashboard .content-container .content .header {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+#pharmacists-dashboard .content-container .content table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .button-container button {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .button-container button i.far {
+    padding-right: 8px;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .button-container button.edit {
+  background-color: #f9f4f0;
+  color: #212133!important;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .button-container button.delete {
+  background-color: #ff7269;
+  color: #fff;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td {
+  padding-bottom: 10px;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr:last-child  td {
+  padding-bottom: 0;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr:first-child  td {
+  padding-top: 10px;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td.button {
+    padding-top: 0;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .order-status.order-received {
+    color: #3fc587;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .order-status.order-pending {
+    color: #aaa;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .order-status.order-in-progress {
+    color: #212133;
+}
+
+#pharmacists-dashboard .content-container .content table tbody tr td .order-status.order-cancelled {
+    color: #ab2d25;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table {
+    width: 100%;
+    font-size: 14px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header button.close {
+    color: #ff7269;
+    text-transform: capitalize;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header button.close:hover {
+    background-color: transparent;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header{
+  display: block;
+  border-bottom: none;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td button {
+    background-color: transparent;
+    color: #d9dadc;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td.filename i.far {
+    padding-right: 10px;
+    color: #a3a60f;
+    font-size: 20px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td a {
+    text-decoration: underline;
+    color: #ff7269;
+    text-decoration: none;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg  .modal-content {
+    padding: 30px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .text-area .form-group textarea#text-area-approved {
+    border: 2px solid #9c9d51;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-footer {
+    border-top: none;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel {
+    background-color: #d4d4d4;
+    color: #656a6d;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content  .modal-footer button.cancel:hover {
+    background-color: #a1a1a1;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content  .modal-footer button{
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .appoved-header {
+    background-color: #f8f9fb;
+    padding: 15px;
+    border: 1px solid #dddee3;
+    border-radius: 3px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header button.close span.text {
+    font-size: 17px;
+    color: #212133;
+    padding-right: 5px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .header-text ,
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    display: inline-block;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    padding-left: 27px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link a {
+    color: #638dd5;
+    text-decoration: underline;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body {
+    padding: 0;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group label span.required {
+    color: #ff7269;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group select#select-type {
+    height: 50px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .button-container button {
+    float: right;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #ff7269;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group input.form-control {
+    background-color: transparent;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .button-container {
+    padding-top: 20px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: -20px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table thead th {
+    padding-right: 10px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .table-container .header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table {
+    margin-top: 20px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .button-container button.delete {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .table-container {
+    border: 20px solid #ff7269;
+    border-radius: 10px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .table-container .table-content {
+    padding: 30px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .table-container .table-content .items-table-container {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .content-container .form-group input#quantity {
+    height: 38px;
+    border: 1px solid#ccc;
+    width: 100%;
+  }
+
+#new-order {
+  background-color: rgb(255 255 255 / 75%);
+}
+
+#new-order .modal-content .close {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#new-order .modal-content {
+    border: 0;
+}
+
+#new-order .modal-dialog.modal-lg {
+    max-width: 80%;
+    width: 80%;
+}
+
+#new-order .modal-dialog .modal-content button.add-item-btn {
+    width: 100%;
+}
+
+
+#pharmacists-dashboard .box-container .container img {
+    padding-right: 20px;
+}
+
+#pharmacists-dashboard .box-container .collapse-menu-button img {
+  padding-right: 20px;
+}
+
+
+
+/*patient-home*/
+
+.content-container .notice-col .text-container {
+    border: 1px solid #ff7269;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.content-container .notice-col .text-container .text a.close-btn-link {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-size: 20px;
+    color: #ff7269;
+}
+
+.content-container .notice-col .text-container .text i.fas.fa-exclamation-circle {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    font-size: 20px;
+    color: #ff7269;
+}
+
+.content-container .notice-col .text-container .text p {
+  margin-bottom: 0px;
+}
+
+.content-container .notice-col .text-container .text a {
+  color: #6995d4;
+}
+
+.content-container .notice-col .text-container .text a.nominate {
+  text-decoration: none;
+}
+
+.content-container .notice-col .text-container .text a.nominate span {
+  text-decoration: underline;
+}
+
+#patient-home .content-container .order-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#patient-home .content-container .order-container .header .button-container button {
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#patient-home .content-container .under-header .under-heading-text, 
+#patient-home .content-container .button-container {
+  display: inline-block;
+}
+
+#patient-home .content-container .button-container {
+  float: right;
+}
+
+#patient-home .content-container .order-container .header {
+    border-bottom: 2px solid #ff7269;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#patient-home .box-container .container img {
+    padding-right: 20px;
+}
+
+#patient-home .side-menu .container ul li a {
+    color: #212133;
+}
+
+#patient-home .content-container {
+    padding-left: 20px;
+    padding-bottom: 250px;
+}
+
+#patient-home .content-container .order-container .table-container .table table tr {
+  border-bottom: none;
+}
+
+#patient-home .content-container .order-container .table-container .table table {
+  margin: auto;
+}
+
+#patient-home .content-container .order-container .table-container .table table tr td.received {
+  color: #3fc587;
+}
+
+#patient-home .content-container .help-text a {
+  color: #6995d4;
+}
+
+#main-header-dashboard .right-header .burger-button {
+  display: none;
+}
+
+#main-header-dashboard .right-header .burger-button a.mobile-menu-toggler {
+    border: none;
+    background-color: #fff;
+    color: #ff7269;
+}
+
+#patient-home .content-container .mobile-additional .button-container button {
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#patient-home .content-container .mobile-additional #text-for-create-order {
+    margin-bottom: 20px;
+}
+
+#patient-home .content-container .mobile-additional {
+  display: none;
+}
+
+#patient-home .content-container .box-container {
+    padding-top: 40px;
+    position: static;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#patient-home .content-container .help-text {
+    text-align: center;
+}
+
+#patient-home .content-container .under-header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#patient-home .content-container .under-header .under-heading-text {
+    font-size: 16px;
+}
+
+
+
+
+/*new-patient*/
+
+
+#new-patient .box-container .container img {
+    padding-right: 20px;
+}
+
+#new-patient .content-container .box-container .main-text-container h1 {
+    font-weight: 600;
+    width: 520px;
+    padding-bottom: 20px;
+}
+
+#new-patient .content-container .box-container .main-text-container .text .button-container button {
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#new-patient .content-container .box-container .main-text-container .text {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f1f1f1
+}
+
+#new-patient .content-container .box-container .main-text-container .text:last-child {
+  padding-bottom: 0px;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+#new-patient .content-container .box-container .main-text-container .text a {
+  color: #6995d4;
+}
+
+#new-patient .content-container .box-container {
+    padding: 50px;
+    position: static;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#new-patient .content-container .help-text a {
+    color: #6995d4;
+}
+
+#new-patient .content-container .help-text {
+  text-align: center;
+}
+
+
+
+/*order-summary*/
+
+#order-summary .box-container .container img {
+    padding-right: 20px;
+}
+
+#order-summary .content-container .box-container {
+    padding: 30px;
+    position: static;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#order-summary .content-container .box-container .main-text-container .header h1 {
+    font-weight: 600;
+}
+
+#order-summary .content-container .box-container .main-text-container .header .button-container button {
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#order-summary .content-container .box-container .main-text-container .header .button-container a {
+  float: right;
+  text-decoration: none;
+  color: #ff7269;
+}
+
+#order-summary .content-container .box-container .main-text-container .header .button-container a:hover {
+  text-decoration: underline;
+}
+
+#order-summary .content-container .box-container .main-text-container .header h4,
+#order-summary .content-container .box-container .main-text-container .header .button-container {
+  display: inline;
+}
+
+#order-summary .content-container .box-container .main-text-container .text p {
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine .detail {
+  display: inline-block;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine .detail:last-child {
+  float: right;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine .detail:nth-child(2) {
+  padding-left: 20px;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine .detail p strong {
+  font-size: 20px;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine .detail p {
+  margin-bottom: 0;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine {
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#order-summary .content-container .box-container .main-text-container .medicine button {
+    border: 0;
+    color: #ff7269;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 30px;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input,
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark,
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container:hover input ~ .checkmark,
+.radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input:checked ~ .checkmark,
+.radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #ff7269;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input:checked ~ span.checkmark:after,
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group select#payment {
+    height: 50px;
+    width: 70%;
+    margin: 20px 0 20px 0;
+}
+
+#order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container button.next {
+    padding: 12px 40px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container button.previous {
+    background-color: #fcf8f5;
+    color: #c4c4c6!important;
+    margin-right: 30px;
+}
+
+#order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+}
+
+#order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container {
+  display: inline-block;
+}
+
+#order-summary .content-container .box-container .main-text-container .bottom-buttons {
+  float: right;
+  padding-top: 30px;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container h5 {
+  font-weight: 600;
+}
+
+#order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content {
+  padding-top: 15px;
+}
+
+#order-summary .content-container .image-container {
+    border: 3px solid #f1f1f1;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#order-summary .content-container .image-container img {
+    width: 100%;
+}
+
+#order-summary .content-container .box-container .main-text-container .button-container {
+  display: none;
+}
+
+#order-summary .content-container .box-container .main-text-container .header .button-container button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #ff7269;
+  color: #fff;
+}
+
+#order-summary .content-container .box-container .main-text-container .button-container a.amend-offer-mobile {
+  width: 100%;
+  text-decoration: none;
+  color: #ff7269;
+  text-align: center;
+}
+
+#order-summary .content-container .box-container .main-text-container .button-container a.amend-offer-mobile:hover {
+  text-decoration: underline;
+}
+
+#order-summary .content-container .box-container .main-text-container .table-container table {
+    width: 100%;
+}
+
+#order-summary .content-container .box-container .main-text-container .table-container {
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+
+
+
+
+
+
+/*patient-continue-order*/
+
+#patient-continue-order .content-container .order-selector {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    width: 430px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#patient-continue-order .content-container .order-selector p {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0 20px;
+    border-right: 1px solid #e2e2e2;
+}
+
+#patient-continue-order .content-container .order-selector p:last-child {
+    border-right: 0;
+}
+
+#patient-continue-order .content-container .order-selector  a {
+  text-decoration: none;
+}
+
+#patient-continue-order .content-container .order-selector  a.active {
+  border-bottom: 2px solid #ff7269;
+  padding-bottom: 4px;
+  color: #212133;
+}
+
+#patient-continue-order .content-container .order-selector  a.inactive {
+  color: #212133;
+}
+
+#patient-continue-order .box-container .container img {
+    padding-right: 20px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .search-bar-section form#search-form i.fas.fa-search {
+    position: absolute;
+    color: #c4c4c6;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+}
+
+#patient-continue-order .content-container .order-medicine-container .search-bar-section form#search-form .search-input-container {
+    position: relative;
+    display: block;
+}
+
+#patient-continue-order .content-container .order-medicine-container .patient-search form#search-form {
+    text-align: right;
+}
+
+#patient-continue-order .content-container .order-medicine-container .patient-search form#search-form .search-patient-btn {
+    margin-top: 20px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .search-bar-section form#search-form input#search-bar {
+    height: 50px;
+    background-color: #f8f8f8;
+    color: #c4c4c6;
+}
+
+#patient-continue-order .content-container .order-medicine-container {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .button-container button {
+    padding: 10px 20px;
+    background-color: #ff7269;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox .form-check .form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check .form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check .form-check-label span.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check .form-check-label input:checked ~ span.checkmark {
+  background-color: #ff7269;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check .form-check-label input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox  .form-check .form-check-label span.checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox,
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .button-container {
+  display: inline-block;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .medicine-checkbox .form-check {
+  padding-left: 0;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .button-container {
+  float: right;
+}
+
+#patient-continue-order .content-container .order-medicine-container .additional-notes .form-group-container .form-group textarea#notes {
+    height: 150px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries.bottom {
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 60px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries {
+    padding-top: 20px;
+    position: relative;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry {
+  padding: 30px;
+  position: relative;
+}
+
+#patient-continue-order .content-container .order-medicine-container .col-md-6 {
+    border-right: 2px solid #f1f1f1;
+}
+
+#patient-continue-order .content-container .order-medicine-container .col-md-6:last-child {
+    border-right: none;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td button {
+    padding: 10px 20px;
+    background-color: #ff7269;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td button i.far.fa-trash-alt {
+    padding-right: 15px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table {
+  width: 100%;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container {
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  margin: 20px 0 20px 0;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td #item-qty {
+    width: 70px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .patient-search {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 50px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .button-container button.order {
+  background-color: #ff7269;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .button-container {
+  text-align: right;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td a {
+  text-decoration: none;
+  color: #212133;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td a i.far.fa-trash-alt {
+  padding-right: 10px;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody tr td a:hover {
+  text-decoration: underline;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .button-container,
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .text {
+    display: inline-block;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .button-container {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+
+#patient-continue-order .content-container .order-medicine-container .entry .button-container.order-medicine {
+    position: relative;
+    right: auto;
+    text-align: right;
+}
+
+#patient-continue-order .content-container .order-medicine-container .medicine-entries .text {
+    padding-top: 10px;
+    padding-right: 185px;
+}
+
+#patient-continue-order .content-container .order-medicine-container.previous-order .entry .button-container {
+    position: relative;
+    right: auto;
+}
+
+#patient-continue-order .content-container .order-medicine-container.previous-order .entry table td:nth-child(3) {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#patient-continue-order .content-container .order-medicine-container.previous-order .entry .added-to-order table td:nth-child(3) {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*delivery-method*/
+
+
+#delivery-method .content-container .box-container .main-text-container .text {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+#delivery-method .box-container .container img {
+    padding-right: 20px;
+}
+
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 30px;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input,
+.radio-content .radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark,
+.radio-content .radio-container span.checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container:hover input ~ .checkmark,
+.radio-content .radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input:checked ~ .checkmark,
+.radio-content .radio-container input:checked ~ .checkmark {
+  background-color: #ff7269;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container input:checked ~ span.checkmark:after,
+.radio-content .radio-container input:checked ~ span.checkmark:after {
+  display: block;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container span.checkmark:after,
+.radio-content .radio-container span.checkmark:after {
+  top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group select#payment {
+    height: 50px;
+    width: 70%;
+    margin: 20px 0 20px 0;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .radio-container.side {
+  display: inline-block;
+}
+
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group.input-address input#inputAddress {
+    height: 50px;
+    width: 500px;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group.input-address {
+    padding-left: 30px;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+#delivery-method .content-container .box-container {
+    padding: 30px;
+    position: static;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid #ecebe9;
+    font-weight: 600;
+}
+
+#delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container button.previous {
+    background-color: #f3e9e0;
+    color: #c4c4c6!important;
+    margin-right: 30px;
+}
+
+#delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container button.next {
+    padding: 12px 40px;
+    background-color: #ff7269;
+    color: #fff;
+}
+
+#delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container {
+  display: inline-block;
+}
+
+#delivery-method .content-container .box-container .main-text-container .bottom-buttons {
+    float: right;
+    padding-top: 30px;
+}
+
+#delivery-method .content-container .image-container {
+    border: 3px solid #f1f1f1;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#delivery-method .content-container .image-container img {
+    width: 100%;
+}
+
+#delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group.input-address input#inputAddress::placeholder {
+  font-style: italic;
+}
+
+
+/*patient-info*/
+
+#home-dashboard .side-menu .container ul li.active a {
+  color: #FF7269;
+}
+
+#home-dashboard .box-container .collapse-menu-button a {
+  color: #bbbabf;
+}
+
+#patient-info .content-container .header .header-container .image {
+  height: 100px;
+  width: 100px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+#patient-info .content-container .header .header-container .name {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+#patient-info .content-container .header .header-container .button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  padding-top: 20px;
+}
+
+#patient-info .content-container .header .header-container .button .button-container button {
+  padding: 10px 20px;
+  background-color: #f9f4f0;
+  font-size: 13px;
+  border-radius: 8px;
+  color: #212133!important;
+  font-weight: 600;
+}
+
+#patient-info .content-container {
+  width: 585px;
+  max-width: 100%;
+  margin-left: auto;
+  background-color: #fff;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+#patient-info .content-container .text-details {
+  padding-top: 30px;
+}
+
+#patient-info .content-container .text-details  .text-details-container .detail-header .detail-header-container h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF7269;
+}
+
+#patient-info .content-container .text-details .text-details-container .detail-entry .detail-entry-container .detail-entry-header .detail-entry-header-container h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#patient-info .content-container .text-details .text-details-container .detail-entry .detail-entry-container .detail-entry-text .detail-entry-text-container p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#patient-info .content-container .button-mobile-display .button-container button {
+  padding: 10px 20px;
+  background-color: #f9f4f0;
+  font-size: 13px;
+  border-radius: 8px;
+  color: #212133!important;
+  font-weight: 600;
+}
+
+#patient-info .content-container .button .button-container button i {
+  padding-right: 10px;
+}
+
+#patient-info .content-container .header .header-container .button .button-container button i {
+  padding-right: 10px;
+}
+
+#patient-info .content-container .button-mobile-display .button-container {
+  text-align: center;
+  display: none;
+}
+
+/*patient-profile*/
+
+#patient-profile .content-container {
+  width: 585px;
+  max-width: 100%;
+  margin-left: auto;
+  background-color: #fff;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+#patient-profile .content-container .header .header-container .image {
+  height: 100px;
+  width: 100px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+#patient-profile .content-container .header .header-container .name {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+#patient-profile .content-container .header .header-container .button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#patient-profile .content-container .header .header-container .button .hyperlink {
+  padding-top: 10px;
+}
+
+#patient-profile .content-container .header .header-container .button .hyperlink .hyperlink-container a p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FF7269;
+}
+
+#patient-profile .content-container .header .header-container .button .hyperlink .hyperlink-container a {
+  text-decoration-color: #FF7269;
+}
+
+#patient-profile .content-container .text-details .text-details-container .detail-header .detail-header-container h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF7269;
+}
+
+#patient-profile .content-container .text-details {
+  padding-top: 30px;
+} 
+
+#patient-profile .content-container .text-details .text-details-container .detail-entry .detail-entry-container .detail-entry-header .detail-entry-header-container h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#patient-profile .content-container .text-details .text-details-container .detail-entry {
+  padding-bottom: 20px;
+}
+
+#patient-profile .content-container .text-details .text-details-container .detail-entry:last-child {
+  padding-bottom: 0px;
+}
+
+#patient-profile .content-container .text-details .text-details-container .detail-entry .detail-entry-container .detail-entry-text .detail-entry-text-container .form-group .form-control {
+  height: 60px;
+}
+
+#patient-profile .content-container .button-mobile-display {
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#patient-profile .content-container .button-mobile-display .button-container {
+  display: inline-block;
+}
+
+#patient-profile .content-container .button-mobile-display .hyperlink {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+#patient-profile .content-container .button-mobile-display .hyperlink .hyperlink-container a p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FF7269;
+}
+
+#patient-profile .content-container .button-mobile-display .hyperlink .hyperlink-container a {
+  text-decoration-color: #FF7269;
+}
+
+
+/*pharmacist-view-patients*/
+
+#pharmacist-view-patients .content-container .header .filters-container {
+    float: right;
+}
+
+#pharmacist-view-patients .content-container .header .hd {
+  display: inline-block;
+}
+
+#pharmacist-view-patients .content-container .header .search-bar.hd .search-bar-container .form-group input#search-bar {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+}
+
+#pharmacist-view-patients .content-container .header .search-bar .search-bar-container {
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+}
+
+#pharmacist-view-patients .content-container .header .hd .form-group .form-control {
+  background-color: #FAFAFC;
+  border: 1px solid #929292;
+}
+
+#pharmacist-view-patients .content-container .header .search-bar.hd .search-bar-container .form-group i.fas.fa-search {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 16px;
+    color: #B0B7C3;
+}
+
+#pharmacist-view-patients .content-container .header .date-from.hd .date-from-container .form-group i.far.fa-calendar-alt {
+  position: relative;
+  top: 41px;
+  right: 35px;
+  color: #b3b9c5;
+}
+
+#pharmacist-view-patients .content-container .header .date-from.hd .date-from-container .form-group input#date-from {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#pharmacist-view-patients .content-container .header .date-to.hd .date-to-container .form-group input#date-to {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#pharmacist-view-patients .content-container .header .date-to.hd {
+  padding-left: 20px;
+}
+
+#pharmacist-view-patients .content-container .header .filter.hd .filter-container .form-group select#filter {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#pharmacist-view-patients .content-container .header .form-group select {
+    height: 38px;
+}
+
+#pharmacist-view-patients .content-container .header .filter.hd {
+  padding-left: 20px;
+}
+
+#pharmacist-view-patients .content-container .header .dropdown.hd .dropdown-container .form-group select#dropdown {
+  width: 150px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#pharmacist-view-patients .content-container .header .dropdown.hd {
+  padding-left: 20px;
+}
+
+#pharmacist-view-patients .content-container .header .hd .label .label-container label {
+  padding-bottom: 10px;
+}
+
+#pharmacist-view-patients .content-container .content {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #EEEEEE;
+  padding: 40px 40px 0 40px;
+}
+
+#pharmacist-view-patients .content-container {
+  padding-right: 20px;
+}
+
+#pharmacist-view-patients .content-container .header {
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+#pharmacist-view-patients .content-container .header .search-bar {
+    position: relative;
+    width: calc(100% - 710px);
+    max-width: 100%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table tbody tr td button.table-button {
+  border: none;
+  background-color: #f9f4ef;
+  padding: 10px 15px;
+  border-radius: 100%;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table tbody tr td {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table tbody {
+  border-bottom: none;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table tbody tr td:last-child {
+  padding-top: 5px;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table thead th {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#pharmacist-view-patients .content-container .content .table .table-container table thead {
+  border-bottom: none;
+}
+
+.content-container .content-footer .content-footer-container .ftr {
+  display: inline-block;
+}
+
+.content-container .content-footer .content-footer-container .page-number.ftr .page-number-container .pgnmbr {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container .label,
+.content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container .form-group {
+  display: inline-block;
+}
+
+.content-container .content-footer {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.content-container .content-footer .content-footer-container .page-number.ftr .page-number-container .number {
+  font-size: 10px;
+}
+
+.content-container .content-footer .content-footer-container .page-number.ftr .page-number-container .number .number-container {
+  padding: 3px 7px;
+  background-color: #fff;
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+}
+
+.content-container .content-footer .content-footer-container .page-number.ftr .page-number-container .number .number-container p {
+  margin-bottom: 0;
+}
+
+.content-container .content-footer .content-footer-container .page-number.ftr {
+  float: right;
+  padding-top: 5px;
+}
+
+.content-container .content-footer .pager-container {
+    float: right;
+}
+
+.content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container .form-group select#filter {
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container {
+  border-right: 2px solid #e2e2e2;
+  padding-right: 14px;
+}
+
+.content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container .label .label-container {
+  padding-right: 15px;
+}
+
+
+#pharmacist-view-patients .content-container .text h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*patient-order-list-view*/
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container .text .text-container h4 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container .button .button-container button {
+  border: none;
+  background-color: #FF7269;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container .text,
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container .button {
+  display: inline-block;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container .button {
+  float: right;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container {
+  width: 585px;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 20px 20px 5px 20px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container {
+  border-bottom: 2px solid #eee;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .header .header-container {
+ padding-bottom: 12px;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table tbody tr td.id-number {
+  color: #FF7269;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table tbody tr td {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table tbody tr td.complete {
+  color: #3DD56A;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table thead th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table {
+  margin-top: 15px;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table thead {
+  border-bottom: none;
+}
+
+#patient-order-list-view .content-container .box-container .order .order-container .table .table-container table tbody {
+  border-bottom: none;
+}
+
+#patient-order-list-view .content-container .box-container .cancel .cancel-container .text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#patient-order-list-view .content-container .box-container .cancel .cancel-container .text .text-container p a {
+  color: #FF7269;
+}
+
+/*pharmacists-patient-detail*/
+
+#pharmacist-patient-detail .content-container .box-container .page-header .page-header-container .text .text-container h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container {
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .text .text-container h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .text, 
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .button {
+  display: inline-block;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .button {
+  float: right;
+  padding-top: 10px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .button .button-container button.btn-2 {
+  background-color: #F9F4EF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .button .button-container button.btn-2 i {
+  padding-right: 8px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container {
+  border-bottom: 2px solid #eee;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody {
+  border-bottom: none;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody tr td.right {
+  font-weight: 500;
+  color: #707070;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody tr td {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  max-width: 50%;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-4 .patient-details:nth-child(3) .patient-details-container {
+  height: 862px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-4 .patient-details:nth-child(3) .patient-details-container .header .header-container {
+  height: 75px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody tr td {
+  width: auto;
+  max-width: auto;
+  padding-bottom: 15px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody tr:last-child td {
+  padding-bottom: 0;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table thead th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table thead {
+  border-bottom: none;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .textarea .textarea-container textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 232px;
+  border: none;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .button .button-container button.btn-1 {
+  border: none;
+  background-color: #FF7269;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .button {
+  text-align: right;
+  padding-top: 15px;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .text .text-container h4 {
+  padding-bottom: 0;
+}
+
+#pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .detail-entry .detail-entry-container .table {
+  margin-bottom: 0;
+}
+
+
+/*pharmacists-repeat-prescription-list*/
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .text .text-container h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table-content-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
+    border-radius: 15px;
+    border: 2px solid #eee;
+}
+
+#pharmacists-repeat-prescription-list .content {
+  padding: 30px 0 30px 0;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .text {
+  display: inline-block;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar {
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar .search-bar-container {
+    width: 420px;
+    max-width: 100%;
+    position: relative;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar .search-bar-container .form-group input#search-bar {
+  height: 54px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar .search-bar-container .form-group input#search-bar::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar .search-bar-container .form-group i.fas.fa-search {
+    position: absolute;
+    top: 19px;
+    right: 18px;
+    color: #B0B7C3;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 30px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .header .header-container .text .text-container {
+  padding-top: 10px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table thead, 
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table tbody {
+  border-bottom: none;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table thead th {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table tbody tr td {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table tbody tr td button.btn-2 {
+  border: none;
+  background-color: #F9F4EF;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+#pharmacists-repeat-prescription-list .content .content-container .table .table-container table tbody tr td button.btn-2 i.far.fa-edit {
+  padding-right: 10px;
+}
+
+
+/*pharmacist-create-repeat-prescription*/
+
+#pharmacist-create-repeat-prescription .content-container .box-container .page-header .page-header-container .text .text-container h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-order .create-order-container .header .header-container .text .text-container h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-order .create-order-container .header .header-container .hyperlink .hyperlink-container a p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .header .header-container .text {
+  display: inline-block;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .header .header-container .hyperlink {
+  display: inline-block;
+  float: right;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content {
+  background-color: #fcfcfc;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+#pharmacist-create-repeat-prescription .content-container {
+  padding-right: 20px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .header {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .header-container {
+  padding-bottom: 15px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-row {
+  display: inline-block;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container label {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container input {
+  height: 56px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name.first-row {
+  padding-right: 20px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+  width: 280px;
+  max-width: 100%;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+  width: 280px;
+  max-width: 100%;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .second-row {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container select {
+  height: 56px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+  width: 445px;
+  max-width: 100%;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select{
+  padding-right: 20px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .qty-select .qty-select-container .form-group select#qty {
+  width: 110px;
+  max-width: 100%;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .notes {
+  padding-top: 50px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .notes .notes-container textarea#notes {
+  height: 160px;
+}
+
+#pharmacist-create-repeat-prescription .button .button-container button.btn-1 {
+  border: none;
+  background-color: #FF7269;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .button {
+  float: right;
+  padding-top: 20px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .header .header-container h6 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #f9f9f9;
+  height: 654px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .header {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table thead, 
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table tbody {
+  border-bottom: none;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table tbody tr td .button .button-container button i {
+  padding-right: 15px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table thead th {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+#pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table tbody tr td {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+  
+/*Media Query*/
+
+
+@media (max-width: 1420px) {
+  #home-dashboard .profile-container .user-image-container {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #home-dashboard .box-container .container img {
+      padding-right: 0;
+  }
+
+  #home-dashboard .side-menu-background {
+      width: 250px;
+  }
+
+  #home-dashboard .col-md-10.content {
+      width: calc(100% - 250px);
+  }
+
+  #home-dashboard .col-md-2.pt-2.patient {
+      width: 250px;
+  }
+
+  #home-dashboard .col-md-10.pt-2.patient {
+      width: calc(100% - 250px);
+  }
+
+  #home-dashboard .side-menu .container ul {
+    padding-left: 0px;
+  }
+
+  #order-details .col-md-10.content .content-container > .row > .col-md-4, 
+  #order-details .col-md-10.content .content-container > .row > .col-md-8 {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  } 
+
+  #order-details .content-container .detail-container {
+    margin-bottom: 20px;
+  }
+
+  .side-menu .container ul li a span {
+      display: block;
+      text-align: center;
+  }
+
+  .side-menu .container ul li {
+      text-align: center;
+  }
+
+  .side-menu .container ul li a i {
+      padding-right: 0!important;
+  }
+
+  .profile-container .col-md-4, .profile-container .col-md-8 {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      text-align: center;
+  }
+
+  #pharmacist-view-patients .content-container .header .search-bar {
+      padding-bottom: 20px;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  #pharmacist-view-patients .content-container .header .date-from.hd {
+    padding-left: 0px;
+    display: inline-block;
+  }
+
+  #pharmacist-view-patients .content-container .header .search-bar.hd .search-bar-container .form-group input#search-bar {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #pharmacist-view-patients .content-container .header .filters-container {
+      float: none;
+  }
+
+  #pharmacist-view-patients .content-container .content .table .table-container table {
+    width: 1420px;
+    max-width: 1420px;
+  }
+
+  #pharmacist-view-patients .content-container .content .table .table-container {
+    overflow-x: scroll;
+  }
+
+  #pharmacist-view-patients .content-container .content .table .table-container::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #pharmacist-view-patients .content-container .content .table .table-container::-webkit-scrollbar-track {
+    background-color: #E4E4E4;
+  }
+
+  #pharmacist-view-patients .content-container .content .table .table-container::-webkit-scrollbar-thumb {
+    background: #FF7269;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-4 .patient-details:nth-child(3) .patient-details-container {
+    height: 724px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .text, 
+  #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .button {
+    display: block;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .button {
+    float: none;
+    padding-bottom: 20px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .patient-details .patient-details-container .header .header-container .text .text-container h4 {
+    padding-bottom: 0;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .col-md-5,
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .col-md-7 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket {
+    height: auto;
+    margin-top: 40px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 490px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 490px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 750px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .qty-select .qty-select-container .form-group select#qty {
+    width: 230px;
+    max-width: 100%;
+  }
+}
+
+
+
+
+@media (max-width: 1199px) {
+  #home-dashboard .profile-container .user-image-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #patient-home .box-container .container img {
+     padding-right: 0px; 
+  }
+
+  #new-patient .box-container .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #order-summary .content-container .box-container .col-md-7,
+  #order-summary .content-container .box-container .col-md-5 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #order-summary .content-container .image-container {
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8, 
+  #pharmacist-patient-detail .content-container .box-container .col-md-4 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details:first-child {
+    padding-top: 50px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .text, #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .button {
+    display: inline-block;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .patient-details:nth-child(2) .patient-details-container .header .header-container .button {
+    float: right;
+    padding-bottom: 10px;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar {
+    display: block;
+    float: none;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .header .header-container .text {
+    display: block;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .table .table-container table {
+    width: 1220px;
+    max-width: 1220px;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .table {
+    overflow-x: scroll;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .table::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .table::-webkit-scrollbar-track {
+    background-color: #E4E4E4;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .table::-webkit-scrollbar-thumb {
+    background: #FF7269;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 375px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 375px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 600px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .qty-select .qty-select-container .form-group select#qty {
+    width: 155px;
+    max-width: 100%;
+  }
+}
+
+
+
+@media (max-width: 991px) {
+  #home-dashboard .side-menu-background {
+      width: 170px;
+  }
+
+  #home-dashboard .col-md-10.content {
+      width: calc(100% - 170px);
+  }
+
+  #home-dashboard .col-md-2.pt-2.patient {
+      width: 170px;
+  }
+
+  #home-dashboard .col-md-10.pt-2.patient {
+      width: calc(100% - 170px);
+  }
+
+  div#registration .text-center {
+    text-align: left !important;
+  }
+
+  div#registration-2 .text-center {
+    text-align: left !important;
+  }
+
+  div#registration-3 .text-center {
+    text-align: left !important;
+  }
+
+  div#registration .content-container .step-number-mobile, 
+  div#registration .content-container .line-container {
+    display: block;
+  }
+
+  div#registration-2 .content-container .step-number-mobile, 
+  div#registration-2 .content-container .line-container {
+    display: block;
+  }
+
+  div#registration-3 .content-container .step-number-mobile, 
+  div#registration-3 .content-container .line-container {
+    display: block;
+  }
+
+  div#registration .content-container .row.pt-5.pb-3.desktop {
+    display: none;
+  }
+
+  div#registration-2 .content-container .row.pt-5.pb-3.desktop {
+    display: none;
+  }
+
+  div#registration-3 .content-container .row.pt-5.pb-3.desktop {
+    display: none;
+  }
+
+  #registration .contact-detail .col-md-6 {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #registration .contact-detail .detail-container {
+    padding-top: 35px;
+  }
+
+  div#registration .content-container {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  #registration .contact-detail .buttons .button-container {
+    display: block;
+  }
+
+  #registration .contact-detail .buttons {
+    text-align: center;
+    width: 100%; 
+    padding-bottom: 30px;
+  }
+
+  #registration .contact-detail .buttons .button-container button.previous {
+    margin-right:0;
+    margin-bottom: 30px;
+  }
+
+  #registration .contact-detail .buttons .button-container button {
+    width: 100%;
+  }
+
+  div#registration .content-container .step-number-mobile .text.active {
+    color: #ff7269;
+  }
+
+  .bottom-details.pt-4.pb-5 {
+    border-top: 1px solid #dadee7;
+  }
+
+  .bottom-footer {
+    text-align: center;
+  }
+
+  div#registration-2 .content-container {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  #registration-2 .welcome-pack .buttons .button-container {
+    display: block;
+  }
+
+  #registration-2 .welcome-pack .buttons {
+    text-align: center;
+    width: 100%; 
+    padding-bottom: 30px;
+  }
+
+  #registration-2 .welcome-pack .buttons .button-container button.previous {
+    margin-right:0;
+    margin-bottom: 30px;
+  }
+
+  #registration-2 .welcome-pack .buttons .button-container button {
+    width: 100%;
+  }
+
+  div#registration-2 .content-container .step-number-mobile .text.active {
+    color: #ff7269;
+  }
+
+  div#registration-3 .content-container {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  #registration-3 .final-details .buttons .button-container {
+    display: block;
+  }
+
+  #registration-3 .final-details .buttons {
+    text-align: center;
+    width: 100%; 
+    padding-bottom: 30px;
+  }
+
+  #registration-3 .final-details .buttons .button-container button.previous {
+    margin-right:0;
+    margin-bottom: 30px;
+  }
+
+  #registration-3 .final-details .buttons .button-container button {
+    width: 100%;
+  }
+
+  div#registration-3 .content-container .step-number-mobile .text.active {
+    color: #ff7269;
+  }
+
+  #registration .container .text-center h1 {
+    font-size: 36px;
+  }
+
+  #home-dashboard .box-container .profile-container .col-md-4 {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #home-dashboard .box-container .profile-container .col-md-8 {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #home-dashboard .box-container .profile-container .user-image-container {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home-dashboard .box-container .profile-container .name-container {
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+  }
+
+  #home-dashboard .side-menu .container span {
+    display: none;
+  }
+
+  #home-dashboard .side-menu .container ul li {
+    text-align: center;
+  }
+
+  #home-dashboard .content-container .col-md-4 {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #home-dashboard .content-container .graph-container {
+    margin-bottom: 30px;
+  }
+
+  #home-dashboard .content-container .col {
+    max-width: 100%;
+     flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #home-dashboard .content-container .link-container{
+    margin-bottom: 30px;
+  }
+
+  #order-details .content-container .row.second .detail-container {
+    height: auto;
+  }
+
+  #order-details .content-container .row .detail-container {
+    height: auto;
+  }
+
+  #order-details .content-container .detail-container .details table thead {
+      display: none;
+  }
+
+  #order-details .content-container .detail-container .details table tbody tr td, 
+  #order-details .content-container .detail-container .details table tbody tr, 
+  #order-details .content-container .detail-container .details table tbody, 
+  #order-details .content-container .detail-container .details table {
+      display: block;
+  }
+
+  #order-details .content-container .detail-container .details table tbody tr {
+    border-bottom: 1px solid #ff7269;
+  }
+
+  #order-details .content-container .detail-container .details table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  #order-details .content-container .detail-container .details table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:nth-child(1):before {
+      content: 'ID:';
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:nth-child(2):before {
+      content: 'Description:';
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:nth-child(3):before {
+      content: 'Status:';
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:nth-child(4):before {
+      content: 'Quantity:';
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:nth-child(5):before {
+      content: 'Update:';
+  }
+
+  #order-details .content-container .row.second .detail-container .details table tbody tr td:nth-child(1):before {
+      content: 'Order Number:';
+  }
+
+ #order-details .content-container .row.second .detail-container .details table tbody tr td:nth-child(2):before {
+      content: 'ID:';
+  }
+
+ #order-details .content-container .row.second .detail-container .details table tbody tr td:nth-child(3):before {
+      content: 'Dates:';
+  }
+
+ #order-details .content-container .row.second .detail-container .details table tbody tr td:nth-child(4):before {
+      content: 'Description:';
+  }
+
+  #order-details .content-container .row.second .detail-container .details table tbody tr td:nth-child(5):before {
+      content: 'Quantity:';
+  }
+
+ #order-details .content-container .detail-container .details table tbody tr td:before {
+      font-weight: bold;
+      margin-right: 15px;
+      width: 130px;
+      display: inline-block;
+  }
+
+  #order-details .content-container .detail-container .details table tbody td.checkbox .form-check {
+    display: inline-block;
+  }
+
+  #pharmacists-dashboard .content-container .content table thead {
+      display: none;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td, 
+  #pharmacists-dashboard .content-container .content table tbody tr, 
+  #pharmacists-dashboard .content-container .content table tbody, 
+  #pharmacists-dashboard .content-container .content table {
+      display: block;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr {
+    border-bottom: 1px solid #ff7269;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(1):before {
+      content: 'ID:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(2):before {
+      content: 'Date:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(3):before {
+      content: 'First Name:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(4):before {
+      content: 'Last Name:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(5):before {
+      content: 'Date of Birth:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(6):before {
+      content: 'No. of Items:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(7):before {
+      content: 'Order Status:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:nth-child(8):before {
+      content: 'Action:';
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td:before {
+      font-weight: bold;
+      margin-right: 15px;
+      width: 130px;
+      display: inline-block;
+  }
+
+  #pharmacists-dashboard .content-container .content table tbody tr td .button-container,
+  #pharmacists-dashboard .content-container .content table tbody tr td.button {
+    display: inline-block;
+  }
+
+  #home-dashboard .box-container .collapse-menu-button {
+    display: none;
+  }
+
+  #order-details .content-container .detail-container .header-container .bottom-header .link-create-prescription {
+      float: none;
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  #pharmacists-dashboard .content-container .content .hd {
+      display: block;
+    margin-bottom: 20px;
+  }
+
+  #pharmacists-dashboard .content-container .content .header {
+      padding-bottom: 65px;
+  }
+
+  #pharmacists-dashboard .content-container .content .create-link {
+      width: 79px;
+  }
+
+  #pharmacists-dashboard .content-container .content .search {
+      padding-right: 30px;
+      border-right: 1px solid #ccc;
+      width: calc(100% - 109px);
+  }
+
+   #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table thead {
+      display: none;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody tr td, 
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody tr, 
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody, 
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table {
+      display: block;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(1):before {
+      content: 'No.:';
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(2):before {
+      content: 'Item:';
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(3):before {
+      content: 'Quantity:';
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td:nth-child(4):before {
+      content: 'Action:';
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .button-container {
+      display: inline-block;
+      padding-left: 0;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td:before {
+      font-weight: bold;
+      margin-right: 10px;
+      width: 70px;
+      display: inline-block;
+  }
+
+ #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody tr {
+    border-bottom: 1px solid #ff7269;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td {
+    padding: 10px 10px 10px 5px;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody td .form-check .form-check-label span.checkmark {
+    top: 150px;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-body table tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  #new-order .modal-body .content-container .col-md-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+  }
+
+  #delivery-method .content-container .box-container .col-md-7, 
+  #delivery-method .content-container .box-container .col-md-5 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%
+  }
+
+  #delivery-method .content-container .image-container {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  #pharmacist-view-patients .content-container .header .filters-container {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      margin-left: -10px;
+      margin-right: -10px;
+  }
+
+  #pharmacist-view-patients .content-container .header .date-from.hd {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+  }
+
+  #pharmacist-view-patients .content-container .header .date-to.hd {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+  }
+
+  #pharmacist-view-patients .content-container .header .hd .label label {
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1;
+  }
+
+  #pharmacist-view-patients .content-container .header .date-from.hd .date-from-container .form-group input#date-from, 
+  #pharmacist-view-patients .content-container .header .date-to.hd .date-to-container .form-group input#date-to {
+      width: 100%;
+  }
+
+  #pharmacist-view-patients .content-container .header .filter.hd {
+      padding-left: 10px;
+      width: 50%;
+      padding-right: 10px;
+  }
+
+  #pharmacist-view-patients .content-container .header .dropdown.hd {
+      padding-left: 10px;
+      width: 50%;
+      padding-right: 10px;
+  }
+
+  #pharmacist-view-patients .content-container .header .filter.hd .filter-container .form-group select#filter {
+      width: 100%;
+  }
+
+  #pharmacist-view-patients .content-container .header .dropdown.hd .dropdown-container .form-group select#dropdown {
+      width: 100%;
+      margin-top: 26px;
+  }
+
+  #pharmacist-view-patients .content-container .header .search-bar .search-bar-container {
+      width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 310px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 310px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 463px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .qty-select .qty-select-container .form-group select#qty {
+    width: 155px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table .table-container table {
+    width: 750px;
+    max-width: 750px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table {
+    overflow-x: scroll;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table::-webkit-scrollbar-track {
+    background-color: #E4E4E4;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .shopping-basket .shopping-basket-container .table::-webkit-scrollbar-thumb {
+    background: #FF7269;
+  }
+}
+
+@media (max-width: 767px) {
+  #home-dashboard .side-menu-background {
+      width: 100%;
+  }
+
+  #home-dashboard .col-md-10.content {
+      width: 100%;
+  }
+
+  #home-dashboard .col-md-2.pt-2.patient {
+      width: 100%;
+      border-right: 0;
+  }
+
+  #home-dashboard .col-md-10.pt-2.patient {
+      width: 100%;
+  }
+
+  #registration .content-container .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #registration .bottom-details .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #registration-2 .content-container .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #registration-2 .bottom-details .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #registration-3 .content-container .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #registration-3 .bottom-details .col-md-4 {
+      max-width: 33.33%;
+     flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+  }
+
+  #main-footer .list {
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+  #main-footer .bottom-footer p {
+    padding: 20px 0 0 0;
+  }
+
+
+  header#main-header .col-md-6 {
+    max-width: 50%;
+     flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+  }
+
+  #main-header .header-logo .logo .logo-container.left:after {
+    left: 101%;
+  }
+
+  #main-header .header-logo .logo .logo-container.left {
+    padding-left: 0px;
+  }
+
+  button.lookup-address {
+      width: 100%;
+  }
+
+  #registration .container .text-center h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #home-dashboard .side-menu .container ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  #home-dashboard .side-menu .container ul li:last-child {
+    margin-right: 0;
+  }
+
+  #home-dashboard .side-menu .container ul {
+    text-align: center;
+  }
+
+  #main-header-dashboard .right-header .text-container {
+    text-align: center;
+  }
+
+  #home-dashboard .content-container {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+
+  #order-details .content-container .row .detail-container .col-md-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+  }
+
+  .side-menu-background.side-menu-hidden, 
+  .side-menu-background.side-menu-hidden + .content {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    padding-left: 0px;
+    text-align: right;
+  }
+
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .header-text, 
+  #pharmacists-dashboard .modal-dialog.modal-lg .modal-content .modal-header .add-patient-link {
+    display: block;
+  }
+  
+  #new-order .modal-body .content-container .col-md-4 {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+  }
+
+  #patient-info .content-container {
+    padding: 40px;
+  }
+
+  #patient-profile .content-container {
+    padding: 40px;
+  }
+
+  #patient-info .content-container .button-mobile-display .button-container {
+    display: block;
+    padding-top: 20px;
+  }
+
+  #patient-info .content-container .header .header-container .button .button-container button {
+    display: none;
+  }
+
+  #patient-profile .content-container .button-mobile-display {
+    display: block;
+  }
+
+  #patient-profile .content-container .header .header-container .button {
+    display: none;
+  }
+
+  #pharmacist-view-patients .content-container .header .filter.hd:before {
+    width: 617px;
+  }
+
+  .content-container .content-footer .pager-container {
+      float: none;
+      text-align: center;
+  }
+
+  .content-container .content-footer .content-footer-container .page-number.ftr {
+      float: none!important;
+      display: inline-block;
+  }
+
+  .content-container .content-footer .content-footer-container .number-of-patients.ftr {
+      text-align: center;
+      display: block;
+  }
+
+  #pharmacist-view-patients .content-container {
+      padding-right: 0;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container {
+    padding-right: 0px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 639px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 639px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name.first-row:first-child {
+    padding-bottom: 30px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 639px;
+    max-width: 100%;
+  }
+}
+
+
+
+
+@media (max-width: 575px) {
+  #registration .container .text-center h1 {
+    font-size: 22px;
+  }
+
+  #registration .bottom-details .col-md-4 {
+      max-width: 100%;
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  #order-details .content-container .detail-container .details table tbody tr td:before {
+    margin-right: 10px;
+    width: 126px;
+  }
+
+  #order-details .content-container .detail-container .right-details {
+    margin-left: 0px;
+  }
+
+  #pharmacists-dashboard .content-container .content .hd {
+     display: block; 
+  }
+
+  #pharmacists-dashboard .content-container .content .create-link {
+    float: right;
+  }
+
+  #pharmacists-dashboard .content-container .content .search.hd,
+  #pharmacists-dashboard .content-container .content .create-link.hd {
+     display: inline-block; 
+  }
+
+  #main-header-dashboard .right-header .burger-button {
+    display: block;
+  }
+
+  #main-header-dashboard .right-header .text-container {
+    display: none;
+  }
+
+  #main-header-dashboard .col-md-2.patient {
+    max-width: 90%;
+    flex: 0 0 90%;
+    -ms-flex: 0 0 90%;
+  }
+
+  #main-header-dashboard .col-md-10.patient {
+    max-width: 10%;
+    flex: 0 0 10%;
+    -ms-flex: 0 0 10%;
+  }
+
+  #main-header-dashboard .right-header .burger-button {
+    margin-top: 20px;
+    font-size: 30px;
+    float: right;
+  }
+
+  #home-dashboard .col-md-2.patient {
+    border-right: none;
+  }
+
+  .col-md-2.side-menu-background {
+    display: none;
+  }
+
+  .content-container .notice-col .text-container {
+    display: block;
+  }
+
+  #patient-home .content-container .mobile-additional {
+  display: none;
+  }
+
+  #patient-home .content-container .order-container .header {
+    display: none;
+  }
+
+  #patient-home .content-container .order-container:before {
+    content: 'Order 1033 - 12/07/2021';
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table thead {
+      display: none;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tr td, 
+  #patient-home .content-container .order-container .table-container .table table tbody tr, 
+  #patient-home .content-container .order-container .table-container .table table tbody, 
+  #patient-home .content-container .order-container .table-container .table table {
+      display: block;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr {
+    border-bottom: 1px solid #ff7269;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr td:first-child {
+    padding-top: 15px;
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr td:nth-child(1):before {
+      content: 'Medication:';
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr td:nth-child(2):before {
+      content: 'Quantity:';
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr td:nth-child(3):before {
+      content: 'Status:';
+  }
+
+  #patient-home .content-container .order-container .table-container .table table tbody tr td:before {
+      font-weight: bold;
+      margin-right: 15px;
+      width: 130px;
+      display: inline-block;
+  }
+
+  .content-container .notice-col .text-container .text i.fas.fa-exclamation-circle {
+    top: 19px;
+    left: 18px;
+    font-size: 20px;
+  }
+
+  .content-container .notice-col .text-container .text a.close-btn-link {
+      font-size: 20px;
+      top: 5px;
+  }
+
+  #new-patient .content-container .box-container .main-text-container h1 {
+    width: auto;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group.input-address input#inputAddress {
+    width: 400px;
+  }
+
+  #delivery-method .content-container .image-container {
+    display: none;
+  }
+
+  #order-summary .content-container .image-container {
+    display: none;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .header .button-container button {
+    float: none;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .header .button-container {
+    width: 100%;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .header h4, 
+  #order-summary .content-container .box-container .main-text-container .header .button-container {
+    display: inline;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .radio-button-container .radio-content .form-group select#payment {
+    width: 100%;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container:last-child button {
+    margin-bottom: 0px;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .bottom-buttons .button-container {
+    display: block;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .bottom-buttons {
+    float: none;
+    padding-top: 30px;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .text {
+    border-bottom: none;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .radio-button-container .radio-content {
+    border-bottom: none;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container {
+    display: block;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .bottom-buttons {
+    float: none;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #delivery-method .content-container .box-container .main-text-container .bottom-buttons .button-container:last-child button {
+    margin-bottom: 0;
+  }
+
+  #main-header-dashboard {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      background-color: #fff;
+  }
+
+  #main-header-dashboard + div {
+      margin-top: 102px;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container {
+    width: auto;
+  }
+
+  #delivery-method .content-container .box-container {
+    width: auto;
+  }
+
+  #order-summary .content-container .box-container {
+    width: auto;
+  }
+
+  #order-summary .content-container .box-container .main-text-container .table-container {
+    margin-top: 20px;
+  }
+
+  #new-patient .content-container .box-container {
+    width: 100%;
+    padding: 30px;
+  }
+
+  #patient-home .content-container .box-container {
+    width: auto;
+  }
+
+  #patient-home .content-container .under-header {
+    display: block;
+    height: 200px;
+  }
+
+  #patient-continue-order .content-container .order-selector {
+      display: block;
+      background-color: #fff;
+  }
+
+  #patient-continue-order .content-container .order-selector p {
+      display: block;
+      text-align: center;
+      border-right: 0;
+      margin-bottom: 10px;
+  }
+
+  #patient-continue-order .content-container .order-selector p .active {
+      display: block;
+      padding: 10px;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table, 
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table thead, 
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody, 
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table tr, 
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table td {
+      display: block;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table thead {
+      display: none;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody td:before {
+      font-weight: bold;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table tbody td:nth-child(1):before {
+      content: 'Item';
+      display: block;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table td:nth-child(3) {
+      display: inline-block;
+      width: 163px;
+      padding: 0;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table td:nth-child(2) {
+      display: inline-block;
+      width: calc(100% - 183px);
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table tr {
+      margin-bottom: 20px;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container table td:nth-child(2):before {
+      content: 'Qty:';
+      margin-right: 10px;
+      display: inline-block;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .table-container.added-to-order table td:nth-child(3) {
+      text-align: right;
+      padding-top: 10px;
+  }
+
+  #patient-continue-order .content-container .order-selector p {
+    width: 48%;
+    display: inline-block;
+  }
+
+  #pharmacist-view-patients .content-container .header .filter.hd:before {
+    width: 423px;
+  }
+
+  .content-container .content-footer .content-footer-container .number-of-patients.ftr {
+    display: block;
+  }
+
+  .content-container .content-footer .content-footer-container .results-per-page.ftr {
+    padding-left: 0;
+  }
+
+  .content-container .content-footer .content-footer-container .results-per-page.ftr .results-per-page-container {
+    border-right: none;
+  }
+
+
+  #patient-order-list-view .content-container .box-container .order .order-container .table .table-container table {
+    width: 585px;
+    max-width: 585px;
+  }
+
+  #patient-order-list-view .content-container .box-container .order .order-container .table .table-container {
+    overflow-x: scroll;
+  }
+
+  #patient-order-list-view .content-container .box-container .order .order-container .table .table-container::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #patient-order-list-view .content-container .box-container .order .order-container .table .table-container::-webkit-scrollbar-track {
+    background-color: #E4E4E4;
+  }
+
+  #patient-order-list-view .content-container .box-container .order .order-container .table .table-container::-webkit-scrollbar-thumb {
+    background: #FF7269;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table {
+    width: 585px;
+    max-width: 585px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container {
+    overflow-x: scroll;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container::-webkit-scrollbar-track {
+    background-color: #E4E4E4;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container::-webkit-scrollbar-thumb {
+    background: #FF7269;
+  }
+
+  #pharmacist-patient-detail .content-container .box-container .col-md-8 .patient-details .patient-details-container .detail-entry .detail-entry-container .table .table-container table tbody tr:last-child td {
+    padding-bottom: 15px;
+  }
+
+  #pharmacist-view-patients .content-container .header .search-bar.hd .search-bar-container .form-group i.fas.fa-search {
+    display: none;
+  }
+
+  #pharmacist-view-patients .content-container .header .date-from.hd, 
+  #pharmacist-view-patients .content-container .header .date-to.hd, 
+  #pharmacist-view-patients .content-container .header .filter.hd, 
+  #pharmacist-view-patients .content-container .header .dropdown.hd {
+      width: 100%;
+  }
+
+  #pharmacists-repeat-prescription-list .content .content-container .header .header-container .search-bar .search-bar-container .form-group i.fas.fa-search {
+      display: none;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 454px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 454px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 454px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  #patient-continue-order .content-container .order-medicine-container .medicine-entries .text {
+      display: block;
+      padding-right: 0;
+      padding-top: 0;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .entry .button-container {
+      position: relative;
+      right: auto;
+      float: none;
+      display: block;
+      text-align: left;
+  }
+
+  #patient-continue-order .content-container .order-medicine-container .medicine-entries {
+      padding-bottom: 25px;
+      border-bottom: 1px dotted #e2e2e2e2;
+  }
+
+  #pharmacist-view-patients .content-container .header .filter.hd:before {
+    width: 350px;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .first-name .first-name-container .form-group input#input-first-name {
+    width: 300px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .last-name .last-name-container .form-group input#input-last-name {
+    width: 300px;
+    max-width: 100%;
+  }
+
+  #pharmacist-create-repeat-prescription .content-container .box-container .create-repeat-prescription-content .create-repeat-prescription-content-container .create-order .create-order-container .details .details-container .type-select .type-select-container .form-group select#type {
+    width: 300px;
+    max-width: 100%;
+  }
+
+}
+
+
+
+
+
+
+	
